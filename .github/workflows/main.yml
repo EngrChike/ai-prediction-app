@@ -1,0 +1,20 @@
+name: Update Predictions
+on:
+  schedule:
+    - cron: '0 5 * * *'  # Morning (5 AM)
+    - cron: '0 17 * * *' # Evening (5 PM)
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run AI Engine
+        env:
+          API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+        run: python engine.py
+      - name: Commit Results
+        run: |
+          git config --global user.name 'DonChike-AI-Bot'
+          git add tracker.json history.json
+          git commit -m "Updated Morning/Evening 5-Odds"
+          git push
