@@ -2,18 +2,22 @@ name: AI Master Predict Engine
 
 on:
   schedule:
-    # Runs at 05:00 UTC (Morning Pick) and 17:00 UTC (Evening Pick)
     - cron: '0 5 * * *'
     - cron: '0 17 * * *'
-  workflow_dispatch: # Allows you to run it manually anytime for testing
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # This gives the bot permission to save files
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+          fetch-depth: 0 
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -21,20 +25,19 @@ jobs:
           python-version: '3.9'
 
       - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
+        run: pip install requests
 
-      - name: Run AI Prediction Script
+      - name: Run AI Script
         env:
-          # This connects your GitHub Secret to the Python Script
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: python main.py
 
-      - name: Commit and Push Updates
+      - name: Force Push Data
         run: |
-          git config --global user.name "DonChike-AI-Bot"
-          git config --global user.name "actions@github.com"
+          git config --global user.name "DonChike-Bot"
+          git config --global user.email "actions@github.com"
           git add tracker.json history.json
-          # Only commit if there are actual changes to the files
-          git diff --quiet && git diff --staged --quiet || (git commit -m "AI Update: New 10-Day Ticket & 5-Odds" && git push)
+          # This forces the update even if there's a minor conflict
+          git commit -m "AI Update: Real Matches Sync" || exit 0
+          git pull --rebase origin main
+          git push origin main
