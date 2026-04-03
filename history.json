@@ -22,9 +22,32 @@
             "analysis": "Manual Tactical Verification"
         }
     ],
+    "evening_5_odds": [
+        {
+            "day": "SCOUTED",
+            "date": "03 Apr",
+            "match": "Burton Albion vs Barnsley",
+            "intensity": "82%",
+            "analysis": "Manual Tactical Verification"
+        },
+        {
+            "day": "SCOUTED",
+            "date": "03 Apr",
+            "match": "Huddersfield Town vs Reading",
+            "intensity": "82%",
+            "analysis": "Manual Tactical Verification"
+        },
+        {
+            "day": "SCOUTED",
+            "date": "03 Apr",
+            "match": "Lincoln City vs AFC Wimbledon",
+            "intensity": "82%",
+            "analysis": "Manual Tactical Verification"
+        }
+    ],
     "win_rate": "91%",
     "total_wins": 158,
     "total_losses": 14,
     "current_streak": "8W",
-    "last_update": "13:13"
+    "last_update": "13:32"
 }

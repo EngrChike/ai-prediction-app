@@ -104,6 +104,41 @@
             "match": "Coventry City vs Derby County",
             "intensity": "82%",
             "analysis": "Manual Tactical Verification"
+        },
+        {
+            "day": "SCOUTED",
+            "date": "03 Apr",
+            "match": "Blackpool vs Exeter City",
+            "intensity": "82%",
+            "analysis": "Manual Tactical Verification"
+        },
+        {
+            "day": "SCOUTED",
+            "date": "03 Apr",
+            "match": "Bradford City vs Northampton Town",
+            "intensity": "82%",
+            "analysis": "Manual Tactical Verification"
+        },
+        {
+            "day": "SCOUTED",
+            "date": "03 Apr",
+            "match": "Burton Albion vs Barnsley",
+            "intensity": "82%",
+            "analysis": "Manual Tactical Verification"
+        },
+        {
+            "day": "SCOUTED",
+            "date": "03 Apr",
+            "match": "Huddersfield Town vs Reading",
+            "intensity": "82%",
+            "analysis": "Manual Tactical Verification"
+        },
+        {
+            "day": "SCOUTED",
+            "date": "03 Apr",
+            "match": "Lincoln City vs AFC Wimbledon",
+            "intensity": "82%",
+            "analysis": "Manual Tactical Verification"
         }
     ]
 }
