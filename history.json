@@ -1,8 +1,30 @@
 {
-    "morning_5_odds": [],
+    "morning_5_odds": [
+        {
+            "day": "SCOUTED",
+            "date": "03 Apr",
+            "match": "Rayo Vallecanoe vs Elche",
+            "intensity": "82%",
+            "analysis": "Manual Tactical Verification"
+        },
+        {
+            "day": "SCOUTED",
+            "date": "03 Apr",
+            "match": "Paris Saint-Germain vs Toulouse",
+            "intensity": "82%",
+            "analysis": "Manual Tactical Verification"
+        },
+        {
+            "day": "SCOUTED",
+            "date": "03 Apr",
+            "match": "Birmingham City vs Blackburn Rovers",
+            "intensity": "82%",
+            "analysis": "Manual Tactical Verification"
+        }
+    ],
     "win_rate": "91%",
     "total_wins": 158,
     "total_losses": 14,
     "current_streak": "8W",
-    "last_update": "13:01"
+    "last_update": "13:13"
 }
