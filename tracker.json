@@ -2,73 +2,73 @@
     "master_ticket": [
         {
             "day": "DAY 1",
-            "date": "Strategic Pick",
+            "date": "STRATEGIC PICK",
             "match": "FC Emmen vs Willem II",
-            "intensity": "72%",
-            "analysis": "Top pick from 40 analyzed games"
-        },
-        {
-            "day": "DAY 2",
-            "date": "Strategic Pick",
-            "match": "Excelsior vs NEC Nijmegen",
             "intensity": "72%",
             "analysis": "Top pick from 39 analyzed games"
         },
         {
-            "day": "DAY 3",
-            "date": "Strategic Pick",
-            "match": "Remo vs Remo",
-            "intensity": "72%",
-            "analysis": "Top pick from 35 analyzed games"
-        },
-        {
-            "day": "DAY 4",
-            "date": "Strategic Pick",
-            "match": "Coventry City vs Coventry City",
-            "intensity": "72%",
-            "analysis": "Top pick from 60 analyzed games"
-        },
-        {
-            "day": "DAY 5",
-            "date": "Strategic Pick",
-            "match": "Central Coast Mariners vs Central Coast Mariners",
-            "intensity": "72%",
-            "analysis": "Top pick from 43 analyzed games"
-        },
-        {
-            "day": "DAY 6",
-            "date": "Strategic Pick",
-            "match": "TS Galaxy vs Polokwane City",
+            "day": "DAY 2",
+            "date": "STRATEGIC PICK",
+            "match": "FC Twente vs Excelsior",
             "intensity": "72%",
             "analysis": "Top pick from 33 analyzed games"
         },
         {
-            "day": "DAY 7",
-            "date": "Strategic Pick",
-            "match": "Arda Kardzhali vs Arda Kardzhali",
+            "day": "DAY 3",
+            "date": "STRATEGIC PICK",
+            "match": "RB Bragantino vs Gremio",
             "intensity": "72%",
-            "analysis": "Top pick from 62 analyzed games"
+            "analysis": "Top pick from 15 analyzed games"
+        },
+        {
+            "day": "DAY 4",
+            "date": "STRATEGIC PICK",
+            "match": "Middlesbrough vs Hull City",
+            "intensity": "72%",
+            "analysis": "Top pick from 25 analyzed games"
+        },
+        {
+            "day": "DAY 5",
+            "date": "STRATEGIC PICK",
+            "match": "Sandefjord vs Melbourne City FC",
+            "intensity": "72%",
+            "analysis": "Top pick from 14 analyzed games"
+        },
+        {
+            "day": "DAY 6",
+            "date": "STRATEGIC PICK",
+            "match": "Lokomotiv Plovdiv vs TS Galaxy",
+            "intensity": "72%",
+            "analysis": "Top pick from 11 analyzed games"
+        },
+        {
+            "day": "DAY 7",
+            "date": "STRATEGIC PICK",
+            "match": "Cherno More Varna vs Levski Sofia",
+            "intensity": "72%",
+            "analysis": "Top pick from 23 analyzed games"
         },
         {
             "day": "DAY 8",
-            "date": "Strategic Pick",
-            "match": "FC Salzburg vs LASK",
+            "date": "STRATEGIC PICK",
+            "match": "FC Nordsjaelland vs FC Salzburg",
             "intensity": "72%",
-            "analysis": "Top pick from 72 analyzed games"
+            "analysis": "Top pick from 24 analyzed games"
         },
         {
             "day": "DAY 9",
-            "date": "Strategic Pick",
-            "match": "Cheltenham Town vs Cheltenham Town",
+            "date": "STRATEGIC PICK",
+            "match": "Oldham Athletic vs Walsall",
             "intensity": "72%",
-            "analysis": "Top pick from 68 analyzed games"
+            "analysis": "Top pick from 30 analyzed games"
         },
         {
             "day": "DAY 10",
-            "date": "Strategic Pick",
-            "match": "Servette vs Servette",
+            "date": "STRATEGIC PICK",
+            "match": "Lausanne vs Young Boys",
             "intensity": "72%",
-            "analysis": "Top pick from 71 analyzed games"
+            "analysis": "Top pick from 29 analyzed games"
         }
     ]
 }
