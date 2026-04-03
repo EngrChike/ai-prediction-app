@@ -17,33 +17,32 @@
     <header class="max-w-5xl mx-auto mb-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
             <h1 class="text-4xl font-black tracking-tighter text-white uppercase">AI MASTER <span class="text-green-500">PREDICT</span></h1>
-            <p class="text-gray-500 font-medium text-sm">Strategic High-Intensity Analysis Engine v3.0</p>
+            <p class="text-gray-500 font-medium text-sm italic">High-Intensity Analysis Engine v3.0</p>
         </div>
         <div class="flex items-center gap-3 bg-green-500/10 border border-green-500/20 px-4 py-2 rounded-full">
             <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            <span class="text-xs font-bold text-green-400">SERVER ACTIVE (2026)</span>
+            <span class="text-xs font-bold text-green-400 uppercase">Server Active (2026)</span>
         </div>
     </header>
 
     <main class="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
+        
         <div class="lg:col-span-1 space-y-6">
             <div class="glass p-6 rounded-3xl border-t-4 border-blue-500">
                 <div class="flex justify-between items-center mb-4">
                     <h2 class="font-bold text-lg"><i class="fa-solid fa-sun text-yellow-400 mr-2"></i>Morning 5-Odds</h2>
-                    <span id="last-update-time" class="text-[10px] text-gray-500 font-bold uppercase">Waiting...</span>
+                    <span id="update-tag" class="text-[9px] text-gray-500 font-bold">LOADING...</span>
                 </div>
-                <div id="morning-odds-container" class="space-y-4">
-                    <p class="text-xs text-gray-600">Scanning morning fixtures...</p>
+                <div id="morning-odds" class="space-y-4">
+                    <p class="text-xs text-gray-600 animate-pulse">Syncing matches...</p>
                 </div>
             </div>
 
             <div class="glass p-6 rounded-3xl border-t-4 border-indigo-500 opacity-90">
-                <div class="flex justify-between items-center mb-4">
-                    <h2 class="font-bold text-lg"><i class="fa-solid fa-moon text-indigo-400 mr-2"></i>Evening 5-Odds</h2>
-                </div>
+                <h2 class="font-bold text-lg mb-4"><i class="fa-solid fa-moon text-indigo-400 mr-2"></i>Evening 5-Odds</h2>
                 <div class="text-center py-6 border-2 border-dashed border-white/5 rounded-2xl">
                     <i class="fa-solid fa-lock text-gray-700 text-2xl mb-2"></i>
-                    <p class="text-[10px] text-gray-500 font-bold uppercase">Unlocks at 16:00 GMT</p>
+                    <p class="text-[10px] text-gray-500 font-bold uppercase tracking-widest">Unlocks at 16:00 GMT</p>
                 </div>
             </div>
         </div>
@@ -53,72 +52,69 @@
                 <h2 class="text-2xl font-bold text-white mb-6 flex items-center">
                     <i class="fa-solid fa-layer-group text-green-500 mr-3"></i>10-Day Master Ticket
                 </h2>
-                <div id="accumulator-list" class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    <p id="loading-text" class="text-gray-600 text-sm italic col-span-2 text-center py-10">Searching for high-intensity games...</p>
+                <div id="master-list" class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <p class="text-gray-600 text-sm italic col-span-2 text-center py-10">AI is selecting the safest daily picks...</p>
                 </div>
                 <div class="mt-8 pt-6 border-t border-white/10 flex justify-between items-center">
-                    <p id="total-odds-val" class="text-3xl font-black text-green-500">0.00</p>
-                    <button class="accent-gradient text-white font-bold py-3 px-8 rounded-2xl">COPY TICKET</button>
+                    <p id="total-odds" class="text-3xl font-black text-green-500">0.00</p>
+                    <button class="accent-gradient text-white font-bold py-3 px-8 rounded-2xl shadow-lg">COPY TICKET</button>
                 </div>
             </section>
 
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6 text-center">
-                <div class="glass p-4 rounded-2xl"><p class="text-[10px] text-gray-500 font-bold uppercase">Accuracy</p><p id="stat-winrate" class="text-xl font-black">0%</p></div>
-                <div class="glass p-4 rounded-2xl"><p class="text-[10px] text-gray-500 font-bold uppercase">Wins</p><p id="stat-wins" class="text-xl font-black text-green-400">0</p></div>
-                <div class="glass p-4 rounded-2xl"><p class="text-[10px] text-gray-500 font-bold uppercase">Losses</p><p id="stat-losses" class="text-xl font-black text-red-400">0</p></div>
-                <div class="glass p-4 rounded-2xl"><p class="text-[10px] text-gray-500 font-bold uppercase">Streak</p><p id="stat-streak" class="text-xl font-black text-blue-400">0W</p></div>
+                <div class="glass p-4 rounded-2xl"><p class="text-[10px] text-gray-500 font-bold uppercase">Accuracy</p><p id="winrate" class="text-xl font-black">0%</p></div>
+                <div class="glass p-4 rounded-2xl"><p class="text-[10px] text-gray-500 font-bold uppercase">Wins</p><p id="wins" class="text-xl font-black text-green-400">0</p></div>
+                <div class="glass p-4 rounded-2xl"><p class="text-[10px] text-gray-500 font-bold uppercase">Losses</p><p id="losses" class="text-xl font-black text-red-400">0</p></div>
+                <div class="glass p-4 rounded-2xl"><p class="text-[10px] text-gray-500 font-bold uppercase">Streak</p><p id="streak" class="text-xl font-black text-blue-400">0W</p></div>
             </div>
         </div>
     </main>
 
     <script>
-        async function loadData() {
-            const cacheBuster = `?t=${new Date().getTime()}`;
+        async function updateUI() {
+            const cache = `?v=${new Date().getTime()}`;
             try {
-                // LOAD TRACKER.JSON
-                const tRes = await fetch('tracker.json' + cacheBuster);
+                // Fetch Accumulator
+                const tRes = await fetch('tracker.json' + cache);
                 const tData = await tRes.json();
-                const container = document.getElementById('accumulator-list');
-                const masterTicket = tData.master_ticket || tData.accumulator_ticket; // Check both naming versions
+                const list = document.getElementById('master-list');
+                const master = tData.master_ticket || [];
 
-                if (masterTicket && masterTicket.length > 0) {
-                    container.innerHTML = '';
-                    masterTicket.forEach(item => {
-                        container.innerHTML += `
+                if (master.length > 0) {
+                    list.innerHTML = '';
+                    master.forEach(game => {
+                        list.innerHTML += `
                             <div class="bg-white/5 p-4 rounded-xl border border-white/5 flex justify-between items-center">
                                 <div>
-                                    <p class="text-[10px] text-gray-500 font-bold uppercase">${item.day || item.day_number} • ${item.date}</p>
-                                    <p class="text-sm font-bold text-white">${item.match}</p>
+                                    <p class="text-[10px] text-gray-500 font-bold uppercase">${game.day} • ${game.date}</p>
+                                    <p class="text-sm font-bold text-white">${game.match}</p>
                                 </div>
                                 <span class="bg-green-500 text-slate-900 text-[10px] font-black px-2 py-1 rounded">OVER 2.5</span>
                             </div>`;
                     });
-                    document.getElementById('total-odds-val').innerText = "~ 62.40";
+                    document.getElementById('total-odds').innerText = "~ 61.40";
                 }
 
-                // LOAD HISTORY.JSON
-                const hRes = await fetch('history.json' + cacheBuster);
+                // Fetch Stats & Morning Slip
+                const hRes = await fetch('history.json' + cache);
                 const hData = await hRes.json();
-                
-                document.getElementById('stat-winrate').innerText = hData.win_rate || "0%";
-                document.getElementById('stat-wins').innerText = hData.total_wins || "0";
-                document.getElementById('stat-losses').innerText = hData.total_losses || "0";
-                document.getElementById('stat-streak').innerText = hData.current_streak || "0W";
-                document.getElementById('last-update-time').innerText = "UPDATED: " + (hData.last_update || "NOW");
+                document.getElementById('winrate').innerText = hData.win_rate || "0%";
+                document.getElementById('wins').innerText = hData.total_wins || "0";
+                document.getElementById('losses').innerText = hData.total_losses || "0";
+                document.getElementById('streak').innerText = hData.current_streak || "0W";
+                document.getElementById('update-tag').innerText = "UPDATED: " + (hData.last_update || "NOW");
 
-                const morningDiv = document.getElementById('morning-odds-container');
+                const morning = document.getElementById('morning-odds');
                 if (hData.morning_5_odds && hData.morning_5_odds.length > 0) {
-                    morningDiv.innerHTML = hData.morning_5_odds.map(game => `
+                    morning.innerHTML = hData.morning_5_odds.map(g => `
                         <div class="flex justify-between text-xs border-b border-white/5 pb-2">
-                            <span>${game.match}</span>
-                            <span class="text-green-400 font-bold">${game.tip}</span>
+                            <span>${g.match}</span>
+                            <span class="text-green-400 font-bold">${g.tip}</span>
                         </div>`).join('');
                 }
-            } catch (err) {
-                console.error("Data fetch error:", err);
-            }
+            } catch (err) { console.log("Engine warming up..."); }
         }
-        window.onload = loadData;
+        window.onload = updateUI;
     </script>
 </body>
 </html>
