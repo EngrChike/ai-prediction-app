@@ -1,144 +1,74 @@
 {
     "master_ticket": [
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Rayo Vallecanoe vs Elche",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "day": "DAY 1",
+            "date": "Strategic Pick",
+            "match": "Reading vs Lincoln City",
+            "intensity": "70%",
+            "analysis": "Best of Group Audit (70%)"
         },
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Paris Saint-Germain vs Toulouse",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "day": "DAY 2",
+            "date": "Strategic Pick",
+            "match": "Oldham Athletic vs Grimsby Town",
+            "intensity": "70%",
+            "analysis": "Best of Group Audit (70%)"
         },
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Birmingham City vs Blackburn Rovers",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "day": "DAY 3",
+            "date": "Strategic Pick",
+            "match": "Clermont Foot 63 vs Red Star",
+            "intensity": "70%",
+            "analysis": "Best of Group Audit (70%)"
         },
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Charlton Athletic vs Bristol City",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "day": "DAY 4",
+            "date": "Strategic Pick",
+            "match": "FC Emmen vs Willem II",
+            "intensity": "70%",
+            "analysis": "Best of Group Audit (70%)"
         },
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Leicester City vs Preston North End",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "day": "DAY 5",
+            "date": "Strategic Pick",
+            "match": "FC Porto vs Famalicao",
+            "intensity": "70%",
+            "analysis": "Best of Group Audit (70%)"
         },
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Birmingham City vs Blackburn Rovers",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "day": "DAY 6",
+            "date": "Strategic Pick",
+            "match": "Arbroath vs St. Johnstone",
+            "intensity": "70%",
+            "analysis": "Best of Group Audit (70%)"
         },
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Charlton Athletic vs Bristol City",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "day": "DAY 7",
+            "date": "Strategic Pick",
+            "match": "Lens vs FA Cup: Quarter-Finals",
+            "intensity": "70%",
+            "analysis": "Best of Group Audit (70%)"
         },
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Leicester City vs Preston North End",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "day": "DAY 8",
+            "date": "Strategic Pick",
+            "match": "Sunday, 05 Apr vs 2. Bundesliga",
+            "intensity": "70%",
+            "analysis": "Best of Group Audit (70%)"
         },
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Norwich City vs Portsmouth",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "day": "DAY 9",
+            "date": "Strategic Pick",
+            "match": "Schalke 04 vs Schalke 04",
+            "intensity": "70%",
+            "analysis": "Best of Group Audit (70%)"
         },
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Oxford United vs Hull City",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
-        },
-        {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "QPR vs Watford",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
-        },
-        {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Sheffield United vs Swansea City",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
-        },
-        {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Stoke City vs Sheffield Wednesday",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
-        },
-        {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "West Bromwich Albion vs Wrexham",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
-        },
-        {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Coventry City vs Derby County",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
-        },
-        {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Blackpool vs Exeter City",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
-        },
-        {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Bradford City vs Northampton Town",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
-        },
-        {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Burton Albion vs Barnsley",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
-        },
-        {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Huddersfield Town vs Reading",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
-        },
-        {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Lincoln City vs AFC Wimbledon",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "day": "DAY 10",
+            "date": "Strategic Pick",
+            "match": "Brazil vs Chapecoense AF",
+            "intensity": "70%",
+            "analysis": "Best of Group Audit (70%)"
         }
     ]
 }

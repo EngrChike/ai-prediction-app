@@ -1,53 +1,41 @@
 {
     "morning_5_odds": [
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
             "match": "Rayo Vallecanoe vs Elche",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "intensity": "85%",
+            "analysis": "Manual Daily Selection"
         },
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
             "match": "Paris Saint-Germain vs Toulouse",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "intensity": "85%",
+            "analysis": "Manual Daily Selection"
         },
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
             "match": "Birmingham City vs Blackburn Rovers",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "intensity": "85%",
+            "analysis": "Manual Daily Selection"
         }
     ],
     "evening_5_odds": [
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Burton Albion vs Barnsley",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "match": "Charlton Athletic vs Bristol City",
+            "intensity": "85%",
+            "analysis": "Manual Daily Selection"
         },
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Huddersfield Town vs Reading",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "match": "Leicester City vs Preston North End",
+            "intensity": "85%",
+            "analysis": "Manual Daily Selection"
         },
         {
-            "day": "SCOUTED",
-            "date": "03 Apr",
-            "match": "Lincoln City vs AFC Wimbledon",
-            "intensity": "82%",
-            "analysis": "Manual Tactical Verification"
+            "match": "Blackpool vs Exeter City",
+            "intensity": "85%",
+            "analysis": "Manual Daily Selection"
         }
     ],
     "win_rate": "91%",
     "total_wins": 158,
     "total_losses": 14,
     "current_streak": "8W",
-    "last_update": "13:32"
+    "last_update": "14:31"
 }
