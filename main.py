@@ -5,7 +5,6 @@ from datetime import datetime
 
 class DonChikeAI:
     def __init__(self):
-        # This pulls the key you set in GitHub Secrets
         self.api_key = os.getenv('FOOTBALL_API_KEY')
         self.headers = {
             'x-rapidapi-key': self.api_key,
@@ -13,44 +12,47 @@ class DonChikeAI:
         }
 
     def run(self):
-        print(f"--- AI STARTING: {datetime.now()} ---")
-        
-        # Test connection to EPL (League 39)
-        url = "https://v3.football.api-sports.io/fixtures?league=39&season=2025&next=10"
+        # We use Season 2025 because April 2026 is the tail end of the 2025/26 season
+        url = "https://v3.football.api-sports.io/fixtures?league=39&season=2025&next=15"
         
         try:
             response = requests.get(url, headers=self.headers)
-            print(f"API Response Status: {response.status_code}")
-            
-            if response.status_code != 200:
-                print(f"ERROR: API returned {response.status_code}. Check subscription!")
-                return
-
             data = response.json().get('response', [])
-            print(f"Games Found: {len(data)}")
-
+            
+            # If EPL (39) is empty, try La Liga (140) as a backup
             if not data:
-                print("No games found. Trying backup league (La Liga)...")
-                # Try League 140 if EPL is empty
-                url = "https://v3.football.api-sports.io/fixtures?league=140&season=2025&next=10"
+                url = "https://v3.football.api-sports.io/fixtures?league=140&season=2025&next=15"
                 data = requests.get(url, headers=self.headers).json().get('response', [])
 
-            # Build the ticket
             m_ticket = []
             for i, f in enumerate(data[:10]):
+                # Formatting match info
+                home = f['teams']['home']['name']
+                away = f['teams']['away']['name']
+                date_raw = f['fixture']['date'] # e.g. 2026-04-05T15:00:00+00:00
+                
                 m_ticket.append({
                     "day": f"Day {i+1}",
-                    "date": f['fixture']['date'][5:10], # MM-DD
-                    "match": f"{f['teams']['home']['name']} vs {f['teams']['away']['name']}"
+                    "date": datetime.strptime(date_raw[:10], "%Y-%m-%d").strftime("%d %b"),
+                    "match": f"{home} vs {away}"
                 })
 
-            # Save to tracker.json
+            # SAVE DATA
             with open('tracker.json', 'w') as f:
                 json.dump({"master_ticket": m_ticket}, f, indent=4)
-            print("Successfully updated tracker.json with real games.")
+            
+            # Update history with 0 stats for the fresh start
+            with open('history.json', 'w') as f:
+                json.dump({
+                    "morning_5_odds": m_ticket[:3], # Using first 3 for morning
+                    "win_rate": "0%", "total_wins": 0, "total_losses": 0, "current_streak": "0W",
+                    "last_update": datetime.now().strftime("%H:%M")
+                }, f, indent=4)
+                
+            print(f"Successfully synced {len(m_ticket)} games!")
 
         except Exception as e:
-            print(f"CRITICAL ERROR: {str(e)}")
+            print(f"Error: {e}")
 
 if __name__ == "__main__":
     DonChikeAI().run()
