@@ -1,8 +1,7 @@
 - name: Force Push Data
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add tracker.json history.json
-          # This version commits even if only the timestamp changed
-          git commit -m "AI Deep Analysis Sync: $(date)" || echo "No changes"
-          git push origin main --force
+  run: |
+    git config --global user.name "github-actions[bot]"
+    git config --global user.email "github-actions[bot]@users.noreply.github.com"
+    git add tracker.json history.json
+    git commit -m "AI Deep Analysis Sync: $(date)" || echo "No changes"
+    git push origin main --force
