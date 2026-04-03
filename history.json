@@ -3,39 +3,39 @@
         {
             "match": "Rayo Vallecanoe vs Elche",
             "intensity": "85%",
-            "analysis": "Manual Daily Selection"
+            "analysis": "Scouted Daily"
         },
         {
             "match": "Paris Saint-Germain vs Toulouse",
             "intensity": "85%",
-            "analysis": "Manual Daily Selection"
+            "analysis": "Scouted Daily"
         },
         {
             "match": "Birmingham City vs Blackburn Rovers",
             "intensity": "85%",
-            "analysis": "Manual Daily Selection"
+            "analysis": "Scouted Daily"
         }
     ],
     "evening_5_odds": [
         {
             "match": "Charlton Athletic vs Bristol City",
             "intensity": "85%",
-            "analysis": "Manual Daily Selection"
+            "analysis": "Scouted Daily"
         },
         {
             "match": "Leicester City vs Preston North End",
             "intensity": "85%",
-            "analysis": "Manual Daily Selection"
+            "analysis": "Scouted Daily"
         },
         {
             "match": "Blackpool vs Exeter City",
             "intensity": "85%",
-            "analysis": "Manual Daily Selection"
+            "analysis": "Scouted Daily"
         }
     ],
     "win_rate": "91%",
     "total_wins": 158,
     "total_losses": 14,
     "current_streak": "8W",
-    "last_update": "14:31"
+    "last_update": "16:09"
 }
