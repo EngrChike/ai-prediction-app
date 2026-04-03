@@ -10,12 +10,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # This gives the bot permission to save files
+      contents: write 
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
+          token: ${{ secrets.GITHUB_TOKEN }} # FIX 1: Explicitly use the secret token
           persist-credentials: true
           fetch-depth: 0 
 
@@ -34,10 +35,18 @@ jobs:
 
       - name: Force Push Data
         run: |
-          git config --global user.name "DonChike-Bot"
-          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # FIX 2: Check if files actually changed before trying to commit
           git add tracker.json history.json
-          # This forces the update even if there's a minor conflict
-          git commit -m "AI Update: Real Matches Sync" || exit 0
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "AI Update: Real Matches Sync"
+          
+          # FIX 3: Use a safer push method to avoid 'rebase' loops
           git pull --rebase origin main
           git push origin main
