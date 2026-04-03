@@ -1,1811 +1,772 @@
 day 1
-Spain
-12:00
+
 Rayo Vallecanoe
 Elche
 
-
-France
-11:45
 Paris Saint-Germain
 Toulouse
 
-
-Favourites
-07:00
 Birmingham City
 Blackburn Rovers
 
-Favourites
-07:00
 Charlton Athletic
 Bristol City
 
-Favourites
-07:00
 Leicester City
 Preston North End
 
-
-07:00
 Blackpool
 Exeter City
 
-Favourites
-07:00
 Bradford City
 Northampton Town
 
-Favourites
-07:00
 Burton Albion
 Barnsley
 
-Favourites
-07:00
 Huddersfield Town
 Reading
 
-Favourites
-07:00
 Lincoln City
 AFC Wimbledon
 
-Favourites
-07:00
 Luton Town
 Peterborough United
 
-Favourites
-07:00
 Plymouth Argyle
 Bolton Wanderers
 
-Favourites
-07:00
 Rotherham United
 Stevenage
 
-Favourites
-07:00
 Stockport County
 Wycombe Wanderers
 
 Favourites
 
-England
-07:00
 Accrington Stanley
 Crewe Alexandra
 
-Favourites
-07:00
 Barnet
 Bromley
 
-Favourites
-07:00
 Bristol Rovers
 Fleetwood Town
 
-Favourites
-07:00
 Chesterfield
 Cheltenham Town
 
-Favourites
-07:00
 Colchester United
 Oldham Athletic
 
-Favourites
-07:00
 Grimsby Town
 Harrogate Town
 
-Favourites
-07:00
 MK Dons
 Barrow
 
-Favourites
-07:00
 Newport County
 Crawley Town
 
-Favourites
-07:00
 Salford City
 Notts County
 
-Favourites
-07:00
 Shrewsbury Town
 Tranmere Rovers
 
-Favourites
-07:00
 Walsall
 Gillingham
 
-Ligue 2
-Ligue 2
-France
-11:00
 Dunkerque
 Rodez
 
-Favourites
-11:00
 FC Annecy
 Guingamp
 
-Favourites
-11:00
 Grenoble
 Clermont Foot 63
 
-Favourites
-11:00
 Red Star
 Laval
 
-Favourites
-11:00
 SC Bastia
 Amiens
 
-
-11:00
 ADO Den Haag
 Jong Ajax
 
-Favourites
-11:00
 Almere City FC
 TOP Oss
 
-Favourites
-11:00
 FC Dordrecht
 Roda JC Kerkrade
 
-Favourites
-11:00
 FC Eindhoven
 De Graafschap
 
-Favourites
-11:00
 Jong AZ Alkmaar
 Helmond Sport
 
-Favourites
-11:00
 MVV Maastricht
 RKC Waalwijk
 
-Favourites
-11:00
 VVV-Venlo
 Cambuur
 
-Favourites
-11:00
 Vitesse
 FC Emmen
 
-Favourites
-11:00
 Willem II
 Jong PSV
 
 BREAK
 day 2
 
-Turkiye
-04:30
 Gençlerbirliği
-
 Goztepe
 
-Favourites
-04:30
 Kasımpaşa
 Kayserispor
 
-Favourites
-07:00
 Gaziantep FK
 Alanyaspor
 
-Favourites
-10:00
 Trabzonspor
 Galatasaray
 
-
-Portugal
-07:30
 Nacional
 CF Estrela da Amadora
 
-Favourites
-10:00
 Moreirense
 SC Braga
 
-Favourites
-10:00
 Rio Ave
 Alverca
 
-Favourites
-12:30
 FC Porto
 Famalicao
 
-ague
-Saudi Arabia
-09:15
 Al Ahli
-
 Damac
 
-Favourites
-09:30
 NEOM SC
 Al Feiha
 
-Favourites
-11:00
 Al Hilal
 Al Taawoun
 
-
-Scotland
-07:00
 Hibernian
 Kilmarnock
 
-Favourites
-07:00
 Motherwell
 Falkirk
 
-Favourites
-07:00
 Rangers
 Dundee United
 
-Favourites
-07:00
 St. Mirren
 Aberdeen
 
-
-Scotland
-07:00
 Arbroath
 St. Johnstone
 
-Favourites
-07:00
 Ayr United
 Partick Thistle
 
-Favourites
-07:00
 Dunfermline Athletic
 Greenock Morton
 
-Favourites
-07:00
 Ross County
 Airdrieonians
-Tomorrow
 
-
-
-06:00
 Sassuolo
 Cagliari
 
-Favourites
-09:00
 Hellas Verona
 Fiorentina
 
-Favourites
-11:45
 Lazio
 Parma
 
-Favourites
-Ligue 1
-Ligue 1
-France
-08:00
 Strasbourg
 Nice
 
-Favourites
-10:00
 Brest
 Rennes
 
-Favourites
-12:05
 Lille
 Lens
 
-
-FA Cup: Quarter-Finals
-04:45
 Manchester City
 Liverpool
 
-Favourites
-09:15
 Chelsea
 Port Vale
 
-Favourites
-12:00
 Southampton
 Arsenal
 
-Favourites
-Eredivisie
-07:30
 PSV Eindhoven
 FC Utrecht
 
-Favourites
-09:45
 AZ Alkmaar
 Fortuna Sittard
 
-Favourites
-09:45
 Telstar
 FC Groningen
 
-Favourites
-12:00
 Ajax
 FC Twente
 
-Favourites
-12:00
 Excelsior
 NEC Nijmegen
 
 BREAK
 day 3
 
-Sunday, 05 Apr
-
-2. Bundesliga
-2. Bundesliga
-Germany
-04:30
 Eintracht Braunschweig
-Eintracht Braunschweig
-1. FC Nuremberg
-1. FC Nuremberg
+FC Nuremberg
 
-Favourites
-04:30
-Greuther Furth
 Greuther Furth
 Paderborn
-Paderborn
 
-Favourites
-04:30
-Hannover 96
 Hannover 96
 Elversberg
-Elversberg
 
-Favourites
-04:30
-Holstein Kiel
 Holstein Kiel
 Preussen Muenster
-Preussen Muenster
 
-Favourites
-04:30
-Schalke 04
 Schalke 04
 Karlsruher SC
-Karlsruher SC
 
-Favourites
-WSL 2
-WSL 2
-England
-04:00
-Durham W
 Durham W
 Bristol City W
-Bristol City W
 
-Favourites
-06:00
-Crystal Palace W
 Crystal Palace W
 Ipswich Town W
-Ipswich Town W
 
-Favourites
-06:00
-Newcastle United W
 Newcastle United W
 Nottingham Forest W
-Nottingham Forest W
 
-Favourites
-Serie A
-Serie A
-Brazil
-12:00
-Chapecoense AF
 Chapecoense AF
 Vitoria
-Vitoria
 
-Favourites
-13:30
-Atletico MG
 Atletico MG
 Athletico Paranaense
-Athletico Paranaense
 
-Favourites
-13:30
-Flamengo
 Flamengo
 Santos FC
-Santos FC
 
-Favourites
-15:30
-Bahia
 Bahia
 Palmeiras
-Palmeiras
 
-Favourites
-15:30
-Corinthians
 Corinthians
 Internacional
-Internacional
 
-Favourites
-16:00
-Mirassol
 Mirassol
 RB Bragantino
-RB Bragantino
 
-Favourites
-16:30
 Gremio
-Gremio
-Remo
 Remo
 
 BREAK
 day 4
 
-Monday, 06 Apr
-Primera Division
-Primera Division
-Primera Division: Apertura
-15:00
-Argentinos Juniors
 Argentinos Juniors
 Banfield
-Banfield
 
-Favourites
-17:15
-Instituto Cordoba
 Instituto Cordoba
 Defensa y Justicia
-Defensa y Justicia
 
-Favourites
-Copa Argentina
-Copa Argentina
-Argentina
-20:00
-Estudiantes de Rio Cuarto
 Estudiantes de Rio Cuarto
 San Martin de Tucuman
-San Martin de Tucuman
 
-Favourites
-20:00
-Gimnasia Mendoza
 Gimnasia Mendoza
 Gimnasia y Tiro
-Gimnasia y Tiro
 
-Favourites
-20:00
-Velez Sarsfield
 Velez Sarsfield
 Deportivo Armenio
-Deportivo Armenio
 
-Favourites
-Swiss Super League
-Swiss Super League
-Super League
-05:00
-Grasshopper
 Grasshopper
 Sion
-Sion
 
-Favourites
-07:30
-Servette
 Servette
 Luzern
-Luzern
 
-Favourites
-07:30
-St. Gallen
 St. Gallen
 FC Zurich
-FC Zurich
 
-Favourites
-Premier League: Relegation Group
-Premier League: Relegation Group
-Egypt
-08:00
-Kahrbaa Alasmalia
 Kahrbaa Alasmalia
 Petrojet
-Petrojet
 
-Favourites
-11:00
-ZED FC
 ZED FC
 Al Mokawloon Al Arab
-Al Mokawloon Al Arab
 
-Monday, 06 Apr
-
-Serie A
-Serie A
-Italy
-03:30
-Udinese
 Udinese
 Como 1907
-Como 1907
 
-Favourites
-06:00
-Lecce
 Lecce
 Atalanta
-Atalanta
 
-Favourites
-09:00
-Juventus
 Juventus
 Genoa
-Genoa
 
-Favourites
-11:45
-Napoli
 Napoli
 AC Milan
-AC Milan
 
-Favourites
-Championship
-Championship
-England
-04:30
-Portsmouth
 Portsmouth
 Oxford United
-Oxford United
 
-Favourites
-05:00
-Millwall
 Millwall
 Norwich City
-Norwich City
 
-Favourites
-07:00
-Blackburn Rovers
 Blackburn Rovers
 West Bromwich Albion
-West Bromwich Albion
 
-Favourites
-07:00
-Bristol City
 Bristol City
 Sheffield United
-Sheffield United
 
-Favourites
-07:00
-Derby County
 Derby County
 Stoke City
-Stoke City
 
-Favourites
-07:00
-Ipswich Town
 Ipswich Town
 Birmingham City
-Birmingham City
 
-Favourites
-07:00
-Preston North End
 Preston North End
 QPR
-QPR
 
-Favourites
-07:00
-Sheffield Wednesday
 Sheffield Wednesday
 Leicester City
-Leicester City
 
-Favourites
-07:00
-Watford
 Watford
 Charlton Athletic
-Charlton Athletic
 
-Favourites
-09:30
-Swansea City
 Swansea City
 Middlesbrough
-Middlesbrough
 
-Favourites
-12:00
 Hull City
-Hull City
-Coventry City
 Coventry City
 
 BREAK
 day 5
 
-
-Tuesday, 07 Apr
-
-Champions League
-Champions League
-Knockout Stage
-12:00
-Real Madrid
 Real Madrid
 Bayern Munich
-Bayern Munich
 
-Favourites
-12:00
-Sporting CP
 Sporting CP
 Arsenal
-Arsenal
 
-Favourites
-CONCACAF Champions Cup
-CONCACAF Champions Cup
-CONCACAF Champions Cup
-17:00
-Nashville SC
 Nashville SC
 CF America
-CF America
 
-Favourites
-19:00
-Los Angeles FC
 Los Angeles FC
 Cruz Azul
-Cruz Azul
 
-Favourites
-Championship
-Championship
-England
-12:00
-Wrexham
+
 Wrexham
 Southampton
-Southampton
 
-Favourites
-League 1
-League 1
-England
-11:45
-Port Vale
 Port Vale
 Rotherham United
-Rotherham United
 
-Copa Argentina
-Copa Argentina
-Argentina
-20:00
-Gimnasia LP
 Gimnasia LP
 CASD Camioneros
-CASD Camioneros
 
-Favourites
-20:00
-Sarmiento
 Sarmiento
 Tristan Suarez
-Tristan Suarez
 
-Favourites
-Liga MX
-Liga MX
-Liga MX: Clausura
-17:00
-Queretaro FC
 Queretaro FC
 FC Juarez
-FC Juarez
 
-Favourites
-Liga de Expansion MX: Clausura
-Liga de Expansion MX: Clausura
-Mexico
-16:00
-Tapatio
+
 Tapatio
 Tlaxcala FC
-Tlaxcala FC
 
-Favourites
-Superliga
-Superliga
-Denmark
-10:00
-FC Nordsjaelland
 FC Nordsjaelland
 Broendby IF
-Broendby IF
 
-Favourites
-Eliteserien
-Eliteserien
-Norway
-10:00
-Aalesund
 Aalesund
 Fredrikstad
-Fredrikstad
 
-Favourites
-10:00
-KFUM Oslo
 KFUM Oslo
 Sandefjord
-Sandefjord
 
-Favourites
-A-League
-A-League
-Australia
-02:00
 Melbourne City FC
-Melbourne City FC
-Central Coast Mariners
 Central Coast Mariners
 
 BREAK
 day 6
 
-Wednesday, 08 Apr
-
-
-Champions League
-Champions League
-Knockout Stage
-12:00
-Barcelona
 Barcelona
 Atletico Madrid
-Atletico Madrid
 
-Favourites
-12:00
-Paris Saint-Germain
 Paris Saint-Germain
 Liverpool
-Liverpool
 
-Favourites
-Europa League
-Europa League
-Knockout Stage
-09:45
-SC Braga
 SC Braga
 Real Betis
-Real Betis
 
-Favourites
-CONCACAF Champions Cup
-CONCACAF Champions Cup
-CONCACAF Champions Cup
-18:00
-Tigres
 Tigres
 Seattle Sounders FC
-Seattle Sounders FC
 
-Favourites
-20:00
-Toluca
 Toluca
 LA Galaxy
-LA Galaxy
 
-Favourites
-
-Copa Sudamericana
-Copa Sudamericana
-Group F
-15:00
-Deportivo Riestra
 Deportivo Riestra
 Palestino
-Palestino
 
-Favourites
-17:30
-Montevideo City Torque
 Montevideo City Torque
 Gremio
-Gremio
 
-Favourites
-Copa Sudamericana
-Copa Sudamericana
-Group G
-17:00
-Audax Italiano
 Audax Italiano
 Olimpia
-Olimpia
 
-Favourites
-Parva Liga
-Parva Liga
-Parva Liga
-08:00
-Montana
 Montana
 PFC CSKA Sofia
-PFC CSKA Sofia
 
-Favourites
-10:30
-Botev Plovdiv
 Botev Plovdiv
 Lokomotiv Plovdiv
-Lokomotiv Plovdiv
 
-Favourites
-Premier League
-Premier League
-South Africa
-10:30
 TS Galaxy
-TS Galaxy
-Polokwane City
 Polokwane City
 
 BREAK
 day 7
 
-Thursday, 09 Apr
-
-Europa League
-Europa League
-Knockout Stage
-12:00
-Bologna
 Bologna
 Aston Villa
-Aston Villa
 
-Favourites
-12:00
-FC Porto
 FC Porto
 Nottingham Forest
-Nottingham Forest
 
-Favourites
-12:00
-Freiburg
 Freiburg
 Celta Vigo
-Celta Vigo
 
-Favourites
-Conference League
-Conference League
-Knockout Round Play-offs
-09:45
-Rayo Vallecano
 Rayo Vallecano
 AEK Athens
-AEK Athens
 
-Favourites
-12:00
-Crystal Palace
 Crystal Palace
 Fiorentina
-Fiorentina
 
-Favourites
-12:00
-Mainz 05
 Mainz 05
 Strasbourg
-Strasbourg
 
-Favourites
-12:00
-Shakhtar Donetsk
 Shakhtar Donetsk
 AZ Alkmaar
-AZ Alkmaar
 
-
-
-Premier League: Relegation Group
-Premier League: Relegation Group
-Egypt
-08:00
-El Geish
 El Geish
 National Bank
-National Bank
 
-Favourites
-08:00
-Kahrbaa Alasmalia
 Kahrbaa Alasmalia
 Al-Ittihad Alexandria
-Al-Ittihad Alexandria
 
-Favourites
-11:00
-Al Mokawloon Al Arab
 Al Mokawloon Al Arab
 Ismaily SC
-Ismaily SC
 
-Favourites
-11:00
-Petrojet
 Petrojet
 ZED FC
-ZED FC
 
-Favourites
-Copa Libertadores 2026
-Copa Libertadores 2026
-Group E
-17:00
-Club Atletico Platense
 Club Atletico Platense
 Corinthians
-Corinthians
 
-Favourites
-19:00
-Santa Fe
 Santa Fe
 Club Atletico Penarol
-Club Atletico Penarol
 
-Favourites
-Copa Libertadores 2026
-Copa Libertadores 2026
-Group H
-15:00
-Rosario Central
 Rosario Central
 Independiente del Valle
-Independiente del Valle
 
-Favourites
-15:00
-Universidad Central
 Universidad Central
 Libertad
-Libertad
 
-
-Copa Sudamericana
-Copa Sudamericana
-Group A
-19:00
-CSD Macara
 CSD Macara
 America de Cali
-America de Cali
 
-Favourites
-Copa Sudamericana
-Copa Sudamericana
-Group B
-15:00
-Juventud de las Piedras
 Juventud de las Piedras
 Cienciano
-Cienciano
 
-Favourites
-Copa Sudamericana
-Copa Sudamericana
-Group E
-15:00
-Botafogo FR
 Botafogo FR
 Caracas
-Caracas
 
-Favourites
-Copa Sudamericana
-Copa Sudamericana
-Group H
-17:30
-Blooming
 Blooming
 River Plate
-River Plate
 
-Favourites
-17:30
-Carabobo FC
 Carabobo FC
 RB Bragantino
-RB Bragantino
 
-Favourites
-Parva Liga
-Parva Liga
-Parva Liga
-05:30
-PFC Lokomotiv Sofia 1929
 PFC Lokomotiv Sofia 1929
 Beroe
-Beroe
 
-Favourites
-08:00
-Ludogorets Razgrad
 Ludogorets Razgrad
 Cherno More Varna
-Cherno More Varna
 
-Favourites
-10:30
 Levski Sofia
-Levski Sofia
-Arda Kardzhali
 Arda Kardzhali
 
 BREAK
 day 8
 
-Friday, 10 Apr
-Premier League
-Premier League
-England
-12:00
-West Ham United
 West Ham United
 Wolves
-Wolves
 
-Favourites
-LaLiga
-LaLiga
-Spain
-12:00
-Real Madrid
 Real Madrid
 Girona
-Girona
 
-Favourites
-Bundesliga
-Bundesliga
-Germany
-11:30
-Augsburg
 Augsburg
 Hoffenheim
-Hoffenheim
 
-Favourites
-Serie A
-Serie A
-Italy
-11:45
-AS Roma
 AS Roma
 Pisa
-Pisa
 
-Favourites
-Ligue 1
-Ligue 1
-France
-10:00
-Paris FC
 Paris FC
 AS Monaco
-AS Monaco
 
-Favourites
-12:05
-Marseille
 Marseille
 Metz
-Metz
 
-Primeira Liga
-Primeira Liga
-Portugal
-12:45
-Famalicao
 Famalicao
 Moreirense
-Moreirense
 
-Favourites
-Saudi Professional League
-Saudi Professional League
-Saudi Arabia
-11:00
-Al Shabab
 Al Shabab
 Al Ittihad
-Al Ittihad
 
-Favourites
-Scottish Championship
-Scottish Championship
-Scotland
-11:45
-Queen's Park
 Queen's Park
 Ross County
-Ross County
 
-Favourites
-LaLiga 2
-LaLiga 2
-Spain
-11:30
-AD Ceuta FC
 AD Ceuta FC
 Real Sociedad B
-Real Sociedad B
 
-Favourites
-Serie B
-Serie B
-Italy
-11:30
-Frosinone
 Frosinone
 Palermo
-Palermo
 
-Favourites
-2. Bundesliga
-2. Bundesliga
-Germany
-09:30
-Fortuna Dusseldorf
 Fortuna Dusseldorf
 Holstein Kiel
-Holstein Kiel
 
-Favourites
-09:30
-Karlsruher SC
 Karlsruher SC
 Arminia Bielefeld
-Arminia Bielefeld
-Eerste Divisie
-Eerste Divisie
-Netherlands
-11:00
-FC Den Bosch
+
 FC Den Bosch
 Cambuur
-Cambuur
 
-Favourites
-11:00
-FC Eindhoven
 FC Eindhoven
 Roda JC Kerkrade
-Roda JC Kerkrade
 
-Favourites
-11:00
-MVV Maastricht
 MVV Maastricht
 Helmond Sport
-Helmond Sport
 
-Favourites
-11:00
-RKC Waalwijk
 RKC Waalwijk
 FC Emmen
-FC Emmen
 
-Favourites
-Primera Division
-Primera Division
-Primera Division: Apertura
-17:00
-Belgrano
 Belgrano
 Aldosivi
-Aldosivi
 
-Favourites
-Liga MX
-Liga MX
-Liga MX: Clausura
-18:00
-Puebla
+
 Puebla
 Leon
-Leon
 
-Favourites
-20:06
-FC Juarez
 FC Juarez
 Tijuana
-Tijuana
 
-Favourites
-Liga de Expansion MX: Clausura
-Liga de Expansion MX: Clausura
-Mexico
-18:00
-Alebrijes Oaxaca
 Alebrijes Oaxaca
 Jaibos Tampico Madero
-Jaibos Tampico Madero
 
-Favourites
-20:00
-Atletico La Paz
 Atletico La Paz
 CD Tepatitlan de Morelos
-CD Tepatitlan de Morelos
 
-Favourites
-Superliga
-Superliga
-Denmark
-10:00
-AGF
 AGF
 FC Nordsjaelland
-FC Nordsjaelland
 
-Favourites
-Bundesliga
-Bundesliga
-Austria
-10:30
 FC Salzburg
-FC Salzburg
-LASK
 LASK
 
 BREAK
 day 9
 
-Saturday, 11 Apr
-Premier League
-Premier League
-England
-04:30
-Arsenal
 Arsenal
 AFC Bournemouth
-AFC Bournemouth
 
-Favourites
-07:00
-Brentford
 Brentford
 Everton
-Everton
 
-Favourites
-07:00
-Burnley
 Burnley
 Brighton
-Brighton
 
-Favourites
-09:30
-Liverpool
 Liverpool
 Fulham
-Fulham
 
-Favourites
-LaLiga
-LaLiga
-Spain
-05:00
-Real Sociedad
 Real Sociedad
 Deportivo Alaves
-Deportivo Alaves
 
-Favourites
-07:15
-Elche
 Elche
 Valencia
-Valencia
 
-Favourites
-09:30
-Barcelona
 Barcelona
 Espanyol
-Espanyol
 
-Favourites
-12:00
-Sevilla
 Sevilla
 Atletico Madrid
-Atletico Madrid
 
-Bundesliga
-Bundesliga
-Germany
-06:30
-Borussia Dortmund
 Borussia Dortmund
 Bayer Leverkusen
-Bayer Leverkusen
 
-Favourites
-06:30
-FC Heidenheim
 FC Heidenheim
 Union Berlin
-Union Berlin
 
-Favourites
-06:30
-RB Leipzig
 RB Leipzig
 Borussia M'gladbach
-Borussia M'gladbach
 
-Favourites
-06:30
-Wolfsburg
 Wolfsburg
 Eintracht Frankfurt
-Eintracht Frankfurt
 
-Favourites
-09:30
-St. Pauli
 St. Pauli
 Bayern Munich
-Bayern Munich
 
-Favourites
-Serie A
-Serie A
-Italy
-06:00
-Cagliari
 Cagliari
 Cremonese
-Cremonese
 
-Favourites
-06:00
-Torino
 Torino
 Hellas Verona
-Hellas Verona
 
-Favourites
-09:00
-AC Milan
 AC Milan
 Udinese
-Udinese
 
-Favourites
-11:45
-Atalanta
 Atalanta
 Juventus
-Juventus
 
-Favourites
-Ligue 1
-Ligue 1
-France
-10:00
-Auxerre
 Auxerre
 Nantes
-Nantes
 
-Favourites
-12:05
-Rennes
 Rennes
 Angers
-Angers
 
-League 2
-League 2
-England
-04:30
-Bristol Rovers
 Bristol Rovers
 Crawley Town
-Crawley Town
 
-Favourites
-04:30
-MK Dons
 MK Dons
 Bromley
-Bromley
 
-Favourites
-07:00
-Accrington Stanley
 Accrington Stanley
 Fleetwood Town
-Fleetwood Town
 
-Favourites
-07:00
-Barnet
 Barnet
 Barrow
-Barrow
 
-Favourites
-07:00
-Cambridge United
 Cambridge United
 Notts County
-Notts County
 
-Favourites
-07:00
-Chesterfield
 Chesterfield
 Tranmere Rovers
-Tranmere Rovers
 
-Favourites
-07:00
-Grimsby Town
+
 Grimsby Town
 Crewe Alexandra
-Crewe Alexandra
 
-Favourites
-07:00
-Newport County
 Newport County
 Harrogate Town
-Harrogate Town
 
-Favourites
-07:00
-Salford City
 Salford City
 Gillingham
-Gillingham
 
-Favourites
-07:00
-Shrewsbury Town
 Shrewsbury Town
 Oldham Athletic
-Oldham Athletic
 
-Favourites
-07:00
 Walsall
-Walsall
-Cheltenham Town
 Cheltenham Town
 
 
 BREAK
 day 10
 
-Sunday, 12 Apr
-Premier League
-Premier League
-England
-06:00
-Crystal Palace
 Crystal Palace
 Newcastle United
-Newcastle United
 
-Favourites
-06:00
-Nottingham Forest
 Nottingham Forest
 Aston Villa
-Aston Villa
 
-Favourites
-06:00
-Sunderland
 Sunderland
 Tottenham Hotspur
-Tottenham Hotspur
 
-Favourites
-08:30
-Chelsea
 Chelsea
 Manchester City
-Manchester City
 
-Favourites
-LaLiga
-LaLiga
-Spain
-05:00
-Osasuna
 Osasuna
 Real Betis
-Real Betis
 
-Favourites
-07:15
-Mallorca
 Mallorca
 Rayo Vallecano
-Rayo Vallecano
 
-Favourites
-09:30
-Celta Vigo
 Celta Vigo
 Real Oviedo
-Real Oviedo
 
-Favourites
-12:00
-Athletic Club
 Athletic Club
 Villarreal
-Villarreal
 
-Bundesliga
-Bundesliga
-Germany
-06:30
-FC Cologne
 FC Cologne
 Werder Bremen
-Werder Bremen
 
-Favourites
-08:30
-VfB Stuttgart
 VfB Stuttgart
 Hamburger SV
-Hamburger SV
 
-Favourites
-10:30
-Mainz 05
 Mainz 05
 Freiburg
-Freiburg
 
-Favourites
-Serie A
-Serie A
-Italy
-03:30
-Genoa
 Genoa
 Sassuolo
-Sassuolo
 
-Favourites
-06:00
-Parma
+
 Parma
 Napoli
-Napoli
 
-Favourites
-09:00
-Bologna
+
 Bologna
 Lecce
-Lecce
 
-Favourites
-11:45
-Como 1907
 Como 1907
 Inter
-Inter
 
-Favourites
-Ligue 1
-Ligue 1
-France
-08:15
-Nice
 Nice
 Le Havre
-Le Havre
 
-Favourites
-08:15
-Toulouse
 Toulouse
 Lille
-Lille
 
-Favourites
-11:45
-Lyon
 Lyon
 Lorient
-Lorient
 
-Primera Division
-Primera Division
-Primera Division: Apertura
-11:00
-Club Atletico Platense
 Club Atletico Platense
 Gimnasia Mendoza
-Gimnasia Mendoza
 
-Favourites
-11:00
-Newell's Old Boys
 Newell's Old Boys
 San Lorenzo de Almagro
-San Lorenzo de Almagro
 
-Favourites
-13:30
-Atletico Tucuman
 Atletico Tucuman
 Tigre
-Tigre
 
-Favourites
-13:30
-CA Huracan
 CA Huracan
 Rosario Central
-Rosario Central
 
-Favourites
-16:00
-Racing Club
+
 Racing Club
 River Plate
-River Plate
 
-Favourites
-Liga MX
-Liga MX
-Liga MX: Clausura
-11:00
-Pumas
 Pumas
 Mazatlan FC
-Mazatlan FC
 
-Favourites
-18:00
-Toluca
+
 Toluca
 Atletico de San Luis
-Atletico de San Luis
 
-Favourites
-Liga de Expansion MX: Clausura
-Liga de Expansion MX: Clausura
-Mexico
-16:00
-Mineros de Zacatecas
+
 Mineros de Zacatecas
 Correcaminos de la UAT
-Correcaminos de la UAT
 
-Favourites
-Swiss Super League
-Swiss Super League
-Super League
-07:30
-Luzern
+
 Luzern
 St. Gallen
-St. Gallen
 
-Favourites
-07:30
-Sion
 Sion
 Lausanne
-Lausanne
 
-Favourites
-07:30
 Young Boys
-Young Boys
-Servette
 Servette
 
 BREAK
