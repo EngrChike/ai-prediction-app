@@ -3,113 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DonChike AI Predictor</title>
+    <title>AI MASTER PREDICT | DonChike Engineering</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body { background-color: #0f172a; color: #f8fafc; font-family: 'Inter', sans-serif; }
-        .glass-card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); border-radius: 1rem; }
-        .gradient-text { background: linear-gradient(90deg, #4ade80, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .win-glow { box-shadow: 0 0 15px rgba(74, 222, 128, 0.2); }
+        body { background-color: #020617; color: #f8fafc; }
+        .glass { background: rgba(30, 41, 59, 0.4); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.05); }
+        .accent-gradient { background: linear-gradient(135deg, #22c55e 0%, #3b82f6 100%); }
     </style>
 </head>
-<body class="p-4 md:p-8">
+<body class="p-4 sm:p-6 lg:p-10">
 
-    <header class="max-w-4xl mx-auto flex justify-between items-center mb-8">
+    <header class="max-w-5xl mx-auto mb-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
-            <h1 class="text-3xl font-bold gradient-text">AI MASTER PREDICT</h1>
-            <p class="text-gray-400 text-sm">Advanced Statistical Analysis Engine</p>
+            <h1 class="text-4xl font-black tracking-tighter text-white">AI MASTER <span class="text-green-500">PREDICT</span></h1>
+            <p class="text-gray-500 font-medium">Strategic High-Intensity Analysis Engine</p>
         </div>
-        <div class="text-right">
-            <span class="bg-green-500/10 text-green-400 px-3 py-1 rounded-full text-xs font-bold border border-green-500/20">LIVE SERVER</span>
+        <div class="flex items-center gap-3 bg-green-500/10 border border-green-500/20 px-4 py-2 rounded-full">
+            <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+            <span class="text-xs font-bold text-green-400">SERVER ACTIVE (2026)</span>
         </div>
     </header>
 
-    <main class="max-w-4xl mx-auto space-y-6">
+    <main class="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
         
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="glass-card p-6 win-glow">
+        <div class="lg:col-span-1 space-y-6">
+            <div class="glass p-6 rounded-3xl border-t-4 border-blue-500">
                 <div class="flex justify-between items-center mb-4">
                     <h2 class="font-bold text-lg"><i class="fa-solid fa-sun text-yellow-400 mr-2"></i>Morning 5-Odds</h2>
-                    <span class="text-xs text-gray-400">Resets in 4h 20m</span>
                 </div>
-                <div class="space-y-3">
-                    <div class="flex justify-between text-sm border-b border-gray-700 pb-2">
-                        <span>Man City vs Liverpool</span>
-                        <span class="font-mono text-green-400 font-bold">Over 2.5</span>
-                    </div>
-                    <div class="flex justify-between text-sm border-b border-gray-700 pb-2">
-                        <span>Real Madrid vs Barca</span>
-                        <span class="font-mono text-green-400 font-bold">GG (BTTS)</span>
-                    </div>
-                    <div class="mt-4 flex justify-between items-center">
-                        <span class="text-xl font-bold">Total Odds: 5.42</span>
-                        <button class="bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded-lg text-sm transition">Copy Picks</button>
-                    </div>
+                <div id="morning-odds" class="space-y-4">
+                    <p class="text-xs text-gray-500 italic">Generating highly accurate morning fixtures...</p>
                 </div>
             </div>
 
-            <div class="glass-card p-6">
+            <div class="glass p-6 rounded-3xl border-t-4 border-indigo-500 opacity-80">
                 <div class="flex justify-between items-center mb-4">
                     <h2 class="font-bold text-lg"><i class="fa-solid fa-moon text-indigo-400 mr-2"></i>Evening 5-Odds</h2>
-                    <span class="text-xs text-gray-400">Available at 16:00</span>
                 </div>
-                <div class="flex flex-col items-center py-6 text-gray-500">
-                    <i class="fa-solid fa-lock mb-2 text-2xl"></i>
-                    <p class="text-sm">Analyzing High Intensity Data...</p>
+                <div class="text-center py-4">
+                    <i class="fa-solid fa-lock text-gray-600 text-2xl mb-2"></i>
+                    <p class="text-xs text-gray-500">Unlocks at 16:00 GMT</p>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="glass-card p-6">
-            <h2 class="font-bold text-lg mb-4 flex items-center">
-                <i class="fa-solid fa-calendar-check text-blue-400 mr-2"></i> 10-Day Over 2.5 Streak
-            </h2>
-            <div class="grid grid-cols-5 md:grid-cols-10 gap-2">
-                <div class="flex flex-col items-center p-2 bg-green-500/20 border border-green-500/50 rounded-lg">
-                    <span class="text-xs font-bold">D1</span>
-                    <i class="fa-solid fa-check text-green-400 mt-1"></i>
+        <div class="lg:col-span-2">
+            <section class="glass p-8 rounded-3xl border-t-4 border-green-500 shadow-2xl shadow-green-900/10">
+                <div class="flex justify-between items-center mb-8">
+                    <div>
+                        <h2 class="text-2xl font-bold text-white flex items-center">
+                            <i class="fa-solid fa-layer-group text-green-500 mr-3"></i>10-Day Master Ticket
+                        </h2>
+                        <p class="text-sm text-gray-500">Accumulated Over 2.5 Strategy (One per Day)</p>
+                    </div>
                 </div>
-                <div class="flex flex-col items-center p-2 bg-green-500/20 border border-green-500/50 rounded-lg">
-                    <span class="text-xs font-bold">D2</span>
-                    <i class="fa-solid fa-check text-green-400 mt-1"></i>
-                </div>
-                <div class="flex flex-col items-center p-2 bg-blue-500/20 border border-blue-500/50 rounded-lg">
-                    <span class="text-xs font-bold">D3</span>
-                    <i class="fa-solid fa-spinner animate-spin text-blue-400 mt-1"></i>
-                </div>
-                <div class="flex flex-col items-center p-2 bg-gray-800 border border-gray-700 rounded-lg opacity-50">
-                    <span class="text-xs">D4</span>
-                    <i class="fa-solid fa-minus mt-1"></i>
-                </div>
-                </div>
-            <div class="mt-4 p-3 bg-blue-900/20 border border-blue-500/30 rounded-lg text-sm">
-                <span class="text-blue-300 font-bold">Next Game:</span> Bayern Munich vs Dortmund (Over 2.5) @ 18:30
-            </div>
-        </section>
 
-        <section class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div class="glass-card p-4 text-center">
-                <p class="text-gray-400 text-xs uppercase tracking-wider">Win Rate</p>
-                <p class="text-2xl font-bold">78.4%</p>
+                <div id="accumulator-list" class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div class="bg-white/5 p-4 rounded-xl border border-white/5 animate-pulse"></div>
+                    <div class="bg-white/5 p-4 rounded-xl border border-white/5 animate-pulse"></div>
+                </div>
+
+                <div class="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
+                    <div class="text-center sm:text-left">
+                        <p class="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Estimated Odds</p>
+                        <p class="text-3xl font-black text-green-500">~ 62.40</p>
+                    </div>
+                    <button class="accent-gradient hover:scale-105 transition-transform text-white font-bold py-3 px-8 rounded-2xl shadow-lg">
+                        COPY ALL 10 PICKS
+                    </button>
+                </div>
+            </section>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6">
+                <div class="glass p-4 rounded-2xl text-center">
+                    <p class="text-[10px] text-gray-500 font-bold uppercase">Win Rate</p>
+                    <p class="text-xl font-bold">81.2%</p>
+                </div>
+                <div class="glass p-4 rounded-2xl text-center">
+                    <p class="text-[10px] text-gray-500 font-bold uppercase">Wins (MTD)</p>
+                    <p class="text-xl font-bold text-green-400">38</p>
+                </div>
+                <div class="glass p-4 rounded-2xl text-center">
+                    <p class="text-[10px] text-gray-500 font-bold uppercase">Loses (MTD)</p>
+                    <p class="text-xl font-bold text-red-400">9</p>
+                </div>
+                <div class="glass p-4 rounded-2xl text-center">
+                    <p class="text-[10px] text-gray-500 font-bold uppercase">Streak</p>
+                    <p class="text-xl font-bold text-blue-400">7W</p>
+                </div>
             </div>
-            <div class="glass-card p-4 text-center">
-                <p class="text-gray-400 text-xs uppercase tracking-wider">Wins (MTD)</p>
-                <p class="text-2xl font-bold text-green-400">42</p>
-            </div>
-            <div class="glass-card p-4 text-center">
-                <p class="text-gray-400 text-xs uppercase tracking-wider">Losses (MTD)</p>
-                <p class="text-2xl font-bold text-red-400">11</p>
-            </div>
-            <div class="glass-card p-4 text-center">
-                <p class="text-gray-400 text-xs uppercase tracking-wider">Current Streak</p>
-                <p class="text-2xl font-bold text-blue-400">5W</p>
-            </div>
-        </section>
+        </div>
     </main>
 
-    <footer class="max-w-4xl mx-auto mt-12 text-center text-gray-500 text-xs">
-        <p>&copy; 2026 DonChike AI Engineering. Data updated every 12 hours.</p>
+    <footer class="max-w-5xl mx-auto mt-12 text-center border-t border-white/5 pt-8">
+        <p class="text-gray-600 text-xs tracking-widest uppercase font-bold">&copy; 2026 DonChike AI Engineering • Proprietary Logic</p>
     </footer>
 
 </body>
