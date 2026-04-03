@@ -5,14 +5,13 @@ import time
 import re
 from datetime import datetime
 
-class DonChikeFinalStrategyAI:
+class DonChikeVsLogicAI:
     def __init__(self):
         self.api_key = os.getenv('FOOTBALL_API_KEY')
         self.headers = {'x-rapidapi-key': self.api_key, 'x-rapidapi-host': 'v3.football.api-sports.io'}
 
     def get_team_id(self, team_name):
         try:
-            # Clean fluff for better API matching
             name = team_name.replace("W", "").replace("U21", "").replace("FC", "").strip()
             url = f"https://v3.football.api-sports.io/teams?search={name}"
             res = requests.get(url, headers=self.headers).json().get('response', [])
@@ -29,66 +28,79 @@ class DonChikeFinalStrategyAI:
             return 70 + (over_25 * 6)
         except: return 72
 
-    def clean_block_lines(self, lines):
-        """Cleans a specific day block of all fluff"""
-        ignore = ['Favourites', 'Spain', 'France', 'England', 'Italy', 'Today', 'LaLiga', 'Ligue 1']
-        return [l.strip() for l in lines if l.strip() and l.strip() not in ignore and not re.search(r'\d{2}:\d{2}', l) and not re.search(r"^\d+'$", l)]
+    def clean_and_pair(self, text_content):
+        """Advanced pairing: Supports 'Team A vs Team B' or standard 2-line format"""
+        ignore = ['FAVOURITES', 'SPAIN', 'FRANCE', 'ENGLAND', 'ITALY', 'TODAY', 'LALIGA', 'LIGUE 1', 'CHAMPIONSHIP', 'BREAK', 'NEXT']
+        lines = text_content.split('\n')
+        final_pairs = []
+        temp_list = []
+
+        for l in lines:
+            val = l.strip()
+            if not val or val.upper() in ignore or re.search(r'\d{1,2}:\d{2}', val) or re.search(r'^\d+-\d+$', val):
+                continue
+            
+            # CHECK FOR VS/V SEPARATOR
+            if re.search(r'\s+vs\s+|\s+v\s+', val, re.IGNORECASE):
+                # Split by 'vs' or 'v'
+                teams = re.split(r'\s+vs\s+|\s+v\s+', val, flags=re.IGNORECASE)
+                if len(teams) >= 2:
+                    final_pairs.append((teams[0].strip(), teams[1].strip()))
+            else:
+                # If no VS, collect for standard 2-line pairing
+                temp_list.append(val)
+
+        # Process any remaining 2-line pairs
+        for i in range(0, len(temp_list) - 1, 2):
+            if temp_list[i].lower() != temp_list[i+1].lower():
+                final_pairs.append((temp_list[i], temp_list[i+1]))
+        
+        return final_pairs
 
     def run(self):
-        # 1. PROCESS DAILY (input_daily.txt)
+        # 1. PROCESS DAILY
         daily_picks = []
         if os.path.exists('input_daily.txt'):
             with open('input_daily.txt', 'r', encoding='utf-8') as f:
-                d_raw = f.read()
-            d_clean = self.clean_block_lines(d_raw.split('\n'))
-            for i in range(0, len(d_clean) - 1, 2):
-                daily_picks.append({"match": f"{d_clean[i]} vs {d_clean[i+1]}", "intensity": "85%", "analysis": "Scouted Daily"})
-            daily_picks = daily_picks[:10]
+                daily_pairs = self.clean_and_pair(f.read())
+            for h, a in daily_pairs:
+                daily_picks.append({"match": f"{h} vs {a}", "intensity": "85%", "analysis": "Scouted Daily"})
+            daily_picks = daily_picks[:6]
 
-        # 2. PROCESS ROADMAP WITH HARD BREAKS (input_roadmap.txt)
+        # 2. PROCESS ROADMAP
         if not os.path.exists('input_roadmap.txt'): return
         with open('input_roadmap.txt', 'r', encoding='utf-8') as f:
-            content = f.read()
+            full_content = f.read()
 
-        # Split the entire file by the word BREAK
-        # This creates a list of "Day Content"
-        day_sections = re.split(r'BREAK|next|Next|Next|Break', content)
-        
+        sections = re.split(r'BREAK|break|NEXT|next', full_content)
         final_roadmap = []
-        day_counter = 1
+        day_idx = 1
 
-        for section in day_sections:
-            if day_counter > 10: break
-            
-            # Clean only the lines in THIS section
-            section_lines = self.clean_block_lines(section.split('\n'))
-            if len(section_lines) < 2: continue # Skip if no full match in block
+        for section in sections:
+            if day_idx > 10: break
+            section_pairs = self.clean_and_pair(section)
+            if not section_pairs: continue
             
             best_match = None
             top_score = 0
-            analysed_count = len(section_lines) // 2
-
-            # Scan every pair in this specific day's block
-            for i in range(0, len(section_lines) - 1, 2):
-                h, a = section_lines[i], section_lines[i+1]
+            for h, a in section_pairs:
                 h_id, a_id = self.get_team_id(h), self.get_team_id(a)
                 score = self.deep_analyze_score(h_id, a_id)
-                
                 if score >= top_score:
                     top_score = score
                     best_match = {
-                        "day": f"DAY {day_counter}",
+                        "day": f"DAY {day_idx}",
                         "date": "STRATEGIC PICK",
                         "match": f"{h} vs {a}",
                         "intensity": f"{score}%",
-                        "analysis": f"Top pick from {analysed_count} analyzed games"
+                        "analysis": f"Top pick from {len(section_pairs)} analyzed games"
                     }
             
             if best_match:
                 final_roadmap.append(best_match)
-                day_counter += 1
+                day_idx += 1
 
-        # SAVE RESULTS
+        # 3. SAVE
         with open('tracker.json', 'w') as f:
             json.dump({"master_ticket": final_roadmap}, f, indent=4)
         with open('history.json', 'w') as f:
@@ -100,4 +112,4 @@ class DonChikeFinalStrategyAI:
             }, f, indent=4)
 
 if __name__ == "__main__":
-    DonChikeFinalStrategyAI().run()
+    DonChikeVsLogicAI().run()
