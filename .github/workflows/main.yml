@@ -1,42 +1,30 @@
 name: AI Master Predict Engine
-
 on:
   schedule:
     - cron: '0 5 * * *'
-    - cron: '0 17 * * *'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write 
-
+      contents: write
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          persist-credentials: true
-          fetch-depth: 0 
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-
-      - name: Install Dependencies
-        run: pip install requests
-
-      - name: Run AI Script
+      - run: pip install requests
+      - name: Run AI Analysis
         env:
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: python main.py
-
-      - name: Force Push Data
+      - name: Force Update Site
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add tracker.json history.json
-          git commit -m "AI Deep Analysis Sync: $(date)" || echo "No changes"
+          git commit -m "AI Update: $(date)" || echo "No changes"
           git push origin main --force
