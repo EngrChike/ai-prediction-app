@@ -200,6 +200,7 @@ Favourites
 Willem II
 Jong PSV
 
+BREAK
 day 2
 
 Turkiye
@@ -380,6 +381,7 @@ Favourites
 Excelsior
 NEC Nijmegen
 
+BREAK
 day 3
 
 Sunday, 05 Apr
@@ -497,6 +499,7 @@ Gremio
 Remo
 Remo
 
+BREAK
 day 4
 
 Monday, 06 Apr
@@ -693,7 +696,7 @@ Hull City
 Coventry City
 Coventry City
 
-
+BREAK
 day 5
 
 
@@ -825,7 +828,7 @@ Melbourne City FC
 Central Coast Mariners
 Central Coast Mariners
 
-
+BREAK
 day 6
 
 Wednesday, 08 Apr
@@ -929,6 +932,7 @@ TS Galaxy
 Polokwane City
 Polokwane City
 
+BREAK
 day 7
 
 Thursday, 09 Apr
@@ -1124,6 +1128,7 @@ Levski Sofia
 Arda Kardzhali
 Arda Kardzhali
 
+BREAK
 day 8
 
 Friday, 10 Apr
@@ -1342,6 +1347,7 @@ FC Salzburg
 LASK
 LASK
 
+BREAK
 day 9
 
 Saturday, 11 Apr
@@ -1570,6 +1576,8 @@ Walsall
 Cheltenham Town
 Cheltenham Town
 
+
+BREAK
 day 10
 
 Sunday, 12 Apr
@@ -1799,3 +1807,5 @@ Young Boys
 Young Boys
 Servette
 Servette
+
+BREAK
