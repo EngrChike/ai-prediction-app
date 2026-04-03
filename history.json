@@ -2,5 +2,7 @@
     "total_wins": 0,
     "total_losses": 0,
     "win_rate": "0%",
-    "recent_results": []
+    "recent_results": [],
+    "morning_5_odds": [],
+    "last_update": "00:26"
 }
