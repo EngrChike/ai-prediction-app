@@ -1,20 +1,40 @@
-name: Update Predictions
+name: AI Master Predict Engine
+
 on:
   schedule:
-    - cron: '0 5 * * *'  # Morning (5 AM)
-    - cron: '0 17 * * *' # Evening (5 PM)
+    # Runs at 05:00 UTC (Morning Pick) and 17:00 UTC (Evening Pick)
+    - cron: '0 5 * * *'
+    - cron: '0 17 * * *'
+  workflow_dispatch: # Allows you to run it manually anytime for testing
+
 jobs:
-  update-data:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Run AI Engine
-        env:
-          API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
-        run: python engine.py
-      - name: Commit Results
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
         run: |
-          git config --global user.name 'DonChike-AI-Bot'
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run AI Prediction Script
+        env:
+          # This connects your GitHub Secret to the Python Script
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+        run: python main.py
+
+      - name: Commit and Push Updates
+        run: |
+          git config --global user.name "DonChike-AI-Bot"
+          git config --global user.name "actions@github.com"
           git add tracker.json history.json
-          git commit -m "Updated Morning/Evening 5-Odds"
-          git push
+          # Only commit if there are actual changes to the files
+          git diff --quiet && git diff --staged --quiet || (git commit -m "AI Update: New 10-Day Ticket & 5-Odds" && git push)
