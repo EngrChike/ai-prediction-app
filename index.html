@@ -3,154 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI MASTER PREDICT | DonChike Engineering</title>
+    <title>AI MASTER PREDICT | DonChike</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body { background-color: #020617; color: #f8fafc; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+        body { background-color: #020617; color: #f8fafc; font-family: 'Inter', sans-serif; }
         .glass { background: rgba(30, 41, 59, 0.4); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.05); }
-        .accent-gradient { background: linear-gradient(135deg, #22c55e 0%, #3b82f6 100%); }
-        .intensity-bar { height: 4px; border-radius: 2px; background: #1e293b; overflow: hidden; }
-        .intensity-fill { height: 100%; background: linear-gradient(90deg, #22c55e, #3b82f6); transition: width 1s ease-in-out; }
+        .intensity-bar { height: 4px; background: #1e293b; border-radius: 2px; overflow: hidden; }
+        .intensity-fill { height: 100%; background: linear-gradient(90deg, #22c55e, #3b82f6); transition: width 1s; }
     </style>
 </head>
-<body class="p-4 sm:p-6 lg:p-10">
-
-    <header class="max-w-5xl mx-auto mb-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+<body class="p-4 md:p-10">
+    <header class="max-w-5xl mx-auto mb-10 flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
-            <h1 class="text-4xl font-black tracking-tighter text-white uppercase">AI MASTER <span class="text-green-500">PREDICT</span></h1>
-            <p class="text-gray-500 font-medium text-sm italic">Strategic High-Intensity Analysis Engine v3.0</p>
+            <h1 class="text-4xl font-black text-white uppercase">AI MASTER <span class="text-green-500">PREDICT</span></h1>
+            <p class="text-gray-500 italic text-sm">Strategic Manual-Scout Engine v3.0</p>
         </div>
-        <div class="flex items-center gap-3 bg-green-500/10 border border-green-500/20 px-4 py-2 rounded-full">
-            <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            <span id="update-tag" class="text-xs font-bold text-green-400 uppercase tracking-widest">Server Syncing...</span>
+        <div id="status" class="bg-green-500/10 border border-green-500/20 px-4 py-2 rounded-full text-xs font-bold text-green-400">
+            SYNCING DATA...
         </div>
     </header>
 
     <main class="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
-        
         <div class="lg:col-span-1 space-y-6">
             <div class="glass p-6 rounded-3xl border-t-4 border-blue-500">
-                <h2 class="font-bold text-lg mb-4"><i class="fa-solid fa-sun text-yellow-400 mr-2"></i>Morning 5-Odds</h2>
-                <div id="morning-odds" class="space-y-4 text-sm">
-                    <p class="text-xs text-gray-600 animate-pulse italic py-4">Checking tactical form...</p>
-                </div>
+                <h2 class="font-bold mb-4">Morning 5-Odds</h2>
+                <div id="morning-odds" class="space-y-3"></div>
             </div>
-
-            <div class="glass p-6 rounded-3xl border-t-4 border-indigo-500">
-                <h2 class="font-bold text-lg mb-4 text-indigo-400">Deep Accuracy</h2>
-                <div class="grid grid-cols-2 gap-4">
-                    <div class="bg-white/5 p-3 rounded-2xl text-center">
-                        <p class="text-[10px] text-gray-500 uppercase font-bold">Win Rate</p>
-                        <p id="winrate" class="text-xl font-black text-white">0%</p>
-                    </div>
-                    <div class="bg-white/5 p-3 rounded-2xl text-center">
-                        <p class="text-[10px] text-gray-500 uppercase font-bold">Streak</p>
-                        <p id="streak" class="text-xl font-black text-blue-400">0W</p>
-                    </div>
-                </div>
+            <div class="glass p-6 rounded-3xl text-center">
+                <p class="text-[10px] text-gray-500 font-bold uppercase">Win Rate</p>
+                <p id="winrate" class="text-3xl font-black text-white">91%</p>
             </div>
         </div>
 
         <div class="lg:col-span-2">
             <section class="glass p-8 rounded-3xl border-t-4 border-green-500 shadow-2xl">
-                <div class="mb-8">
-                    <h2 class="text-2xl font-bold text-white flex items-center">
-                        <i class="fa-solid fa-microchip text-green-500 mr-3"></i>10-Day Deep Analysis
-                    </h2>
-                    <p class="text-sm text-gray-500 mt-1 uppercase tracking-widest font-bold text-[10px]">H2H + Injury + Form Calibration</p>
-                </div>
-
-                <div id="master-list" class="grid grid-cols-1 gap-4">
-                    <div class="py-20 text-center">
-                        <i class="fa-solid fa-dna fa-spin text-green-500 text-3xl mb-4"></i>
-                        <p class="text-gray-500 text-sm italic">AI is running Deep Tactical Simulations...</p>
-                    </div>
-                </div>
-
-                <div class="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-6">
-                    <div>
-                        <p class="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Total Projected Odds</p>
-                        <p id="total-odds" class="text-3xl font-black text-green-500">~ 68.45</p>
-                    </div>
-                    <button onclick="alert('Ticket Copied to Clipboard!')" class="accent-gradient w-full sm:w-auto hover:scale-105 transition-transform text-white font-bold py-4 px-12 rounded-2xl shadow-lg uppercase tracking-wider text-sm">
-                        Copy Master Ticket
-                    </button>
-                </div>
+                <h2 class="text-2xl font-bold mb-6 flex items-center"><i class="fa-solid fa-microchip text-green-500 mr-3"></i>10-Day Roadmap</h2>
+                <div id="master-list" class="space-y-4"></div>
             </section>
         </div>
     </main>
 
     <script>
-        async function fetchAIResults() {
-            // Version buster to bypass browser cache
-            const buster = `?v=${new Date().getTime()}`;
-            
+        async function loadData() {
+            const b = `?v=${Date.now()}`;
             try {
-                // 1. Fetch Tracker Data
-                const trackerRes = await fetch('./tracker.json' + buster);
-                const trackerData = await trackerRes.json();
+                const res = await fetch('./tracker.json' + b);
+                const data = await res.json();
                 const list = document.getElementById('master-list');
-                const games = trackerData.master_ticket || [];
-
-                if (games.length > 0) {
-                    list.innerHTML = ''; 
-                    games.forEach(game => {
-                        list.innerHTML += `
-                            <div class="bg-white/5 p-5 rounded-2xl border border-white/5 hover:border-green-500/30 transition-all group">
-                                <div class="flex justify-between items-start mb-3">
-                                    <div>
-                                        <p class="text-[10px] text-gray-500 font-black uppercase tracking-widest">${game.day} • ${game.date}</p>
-                                        <h3 class="text-lg font-bold text-white group-hover:text-green-400 transition-colors">${game.match}</h3>
-                                    </div>
-                                    <div class="text-right">
-                                        <span class="text-[10px] text-green-500 font-black uppercase bg-green-500/10 px-2 py-1 rounded">Intensity: ${game.intensity}</span>
-                                    </div>
-                                </div>
-                                
-                                <div class="space-y-2">
-                                    <div class="intensity-bar">
-                                        <div class="intensity-fill" style="width: ${game.intensity}"></div>
-                                    </div>
-                                    <div class="flex items-center gap-2 text-[10px] text-gray-400 italic">
-                                        <i class="fa-solid fa-shield-halved text-blue-500"></i>
-                                        <span>${game.analysis || 'Tactical Analysis Verified'}</span>
-                                    </div>
-                                </div>
+                list.innerHTML = data.master_ticket.map(g => `
+                    <div class="bg-white/5 p-4 rounded-2xl border border-white/5">
+                        <div class="flex justify-between items-center mb-2">
+                            <div>
+                                <p class="text-[10px] text-gray-500 font-black uppercase">${g.day} • ${g.date}</p>
+                                <p class="font-bold text-white">${g.match}</p>
                             </div>
-                        `;
-                    });
-                } else {
-                    list.innerHTML = '<div class="py-10 text-center glass rounded-2xl"><p class="text-gray-500 italic">AI rejecting current fixtures based on low intensity. Refreshing in 5 mins...</p></div>';
-                }
-
-                // 2. Fetch History & Stats
-                const historyRes = await fetch('./history.json' + buster);
-                const historyData = await historyRes.json();
-                
-                document.getElementById('winrate').innerText = historyData.win_rate || "91%";
-                document.getElementById('streak').innerText = historyData.current_streak || "8W";
-                document.getElementById('update-tag').innerText = "LIVE SYNC: " + (historyData.last_update || "ACTIVE");
-
-                const morningBox = document.getElementById('morning-odds');
-                if (historyData.morning_5_odds && historyData.morning_5_odds.length > 0) {
-                    morningBox.innerHTML = historyData.morning_5_odds.map(g => `
-                        <div class="flex justify-between items-center bg-white/5 p-3 rounded-xl">
-                            <span class="text-gray-300 font-semibold truncate mr-2">${g.match}</span>
-                            <span class="text-green-400 font-black shrink-0 uppercase text-[10px]">O 2.5</span>
+                            <span class="text-[10px] text-green-400 font-bold">${g.intensity}</span>
                         </div>
-                    `).join('');
-                } else {
-                    morningBox.innerHTML = '<p class="text-center text-gray-600 text-xs">Awaiting Morning Session...</p>';
-                }
+                        <div class="intensity-bar mb-2"><div class="intensity-fill" style="width:${g.intensity}"></div></div>
+                        <p class="text-[10px] text-gray-400 italic"><i class="fa-solid fa-check-double mr-1"></i>${g.analysis}</p>
+                    </div>
+                `).join('');
 
-            } catch (error) {
-                console.error("Deep Sync Error:", error);
-                document.getElementById('update-tag').innerText = "SYNC OFFLINE";
-            }
+                const hRes = await fetch('./history.json' + b);
+                const hData = await hRes.json();
+                document.getElementById('morning-odds').innerHTML = hData.morning_5_odds.map(m => `
+                    <div class="bg-white/5 p-3 rounded-xl flex justify-between text-xs">
+                        <span>${m.match}</span><span class="text-green-500 font-bold">O 2.5</span>
+                    </div>
+                `).join('');
+                document.getElementById('status').innerText = "LIVE SYNC: " + hData.last_update;
+            } catch(e) { console.error(e); }
         }
-
-        window.onload = fetchAIResults;
+        window.onload = loadData;
     </script>
 </body>
 </html>
