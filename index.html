@@ -7,22 +7,21 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body { background-color: #020617; color: #f8fafc; font-family: 'Inter', sans-serif; }
+        body { background-color: #020617; color: #f8fafc; font-family: 'Inter', sans-serif; overflow-x: hidden; }
         .glass { background: rgba(30, 41, 59, 0.4); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.05); }
         .accent-gradient { background: linear-gradient(135deg, #22c55e 0%, #3b82f6 100%); }
-        .card-win { border-left: 4px solid #22c55e; }
     </style>
 </head>
 <body class="p-4 sm:p-6 lg:p-10">
 
     <header class="max-w-5xl mx-auto mb-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
-            <h1 class="text-4xl font-black tracking-tighter text-white uppercase">AI MASTER <span class="text-green-500">PREDICT</span></h1>
+            <h1 class="text-4xl font-black tracking-tighter text-white uppercase tracking-tighter">AI MASTER <span class="text-green-500">PREDICT</span></h1>
             <p class="text-gray-500 font-medium text-sm italic">Strategic High-Intensity Analysis Engine v3.0</p>
         </div>
         <div class="flex items-center gap-3 bg-green-500/10 border border-green-500/20 px-4 py-2 rounded-full">
             <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            <span class="text-xs font-bold text-green-400 uppercase">Server Active (2026)</span>
+            <span class="text-xs font-bold text-green-400 uppercase tracking-widest">Server Active (2026)</span>
         </div>
     </header>
 
@@ -32,10 +31,10 @@
             <div class="glass p-6 rounded-3xl border-t-4 border-blue-500">
                 <div class="flex justify-between items-center mb-4">
                     <h2 class="font-bold text-lg"><i class="fa-solid fa-sun text-yellow-400 mr-2"></i>Morning 5-Odds</h2>
-                    <span id="update-tag" class="text-[9px] text-gray-500 font-bold uppercase tracking-widest">Syncing...</span>
+                    <span id="update-tag" class="text-[9px] text-gray-500 font-bold uppercase tracking-widest">LOADING...</span>
                 </div>
                 <div id="morning-odds" class="space-y-4">
-                    <p class="text-xs text-gray-600 animate-pulse italic text-center py-4">Waiting for AI sync...</p>
+                    <p class="text-xs text-gray-600 animate-pulse italic text-center py-4">Syncing matches...</p>
                 </div>
             </div>
 
@@ -49,20 +48,20 @@
         </div>
 
         <div class="lg:col-span-2">
-            <section class="glass p-8 rounded-3xl border-t-4 border-green-500 shadow-2xl shadow-green-900/10">
+            <section class="glass p-8 rounded-3xl border-t-4 border-green-500 shadow-2xl">
                 <div class="flex justify-between items-center mb-8">
                     <div>
                         <h2 class="text-2xl font-bold text-white flex items-center">
                             <i class="fa-solid fa-layer-group text-green-500 mr-3"></i>10-Day Master Ticket
                         </h2>
-                        <p class="text-sm text-gray-500">Accumulated Over 2.5 Strategy (One Game per Day)</p>
+                        <p class="text-sm text-gray-500">Accumulated Over 2.5 Strategy</p>
                     </div>
                 </div>
 
                 <div id="master-list" class="grid grid-cols-1 md:grid-cols-2 gap-3">
                     <div class="col-span-2 text-center py-12">
                         <i class="fa-solid fa-circle-notch fa-spin text-green-500 text-3xl mb-4"></i>
-                        <p class="text-gray-500 text-sm">AI is analyzing high-intensity match data...</p>
+                        <p class="text-gray-500 text-sm italic">AI is connecting to global sports servers...</p>
                     </div>
                 </div>
 
@@ -71,97 +70,77 @@
                         <p class="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Total Projected Odds</p>
                         <p id="total-odds" class="text-3xl font-black text-green-500">0.00</p>
                     </div>
-                    <button onclick="alert('Master Ticket Copied!')" class="accent-gradient hover:scale-105 transition-transform text-white font-bold py-3 px-10 rounded-2xl shadow-lg uppercase tracking-wider text-sm">
+                    <button onclick="alert('Ticket Copied!')" class="accent-gradient hover:scale-105 transition-transform text-white font-bold py-3 px-10 rounded-2xl shadow-lg uppercase tracking-wider text-sm">
                         Copy Ticket
                     </button>
                 </div>
             </section>
 
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6 text-center">
-                <div class="glass p-4 rounded-2xl">
-                    <p class="text-[10px] text-gray-500 font-bold uppercase tracking-tighter">Accuracy</p>
-                    <p id="winrate" class="text-xl font-black text-white">0%</p>
-                </div>
-                <div class="glass p-4 rounded-2xl">
-                    <p class="text-[10px] text-gray-500 font-bold uppercase tracking-tighter">Wins</p>
-                    <p id="wins" class="text-xl font-black text-green-400">0</p>
-                </div>
-                <div class="glass p-4 rounded-2xl">
-                    <p class="text-[10px] text-gray-500 font-bold uppercase tracking-tighter">Losses</p>
-                    <p id="losses" class="text-xl font-black text-red-400">0</p>
-                </div>
-                <div class="glass p-4 rounded-2xl">
-                    <p class="text-[10px] text-gray-500 font-bold uppercase tracking-tighter">Streak</p>
-                    <p id="streak" class="text-xl font-black text-blue-400">0W</p>
-                </div>
+                <div class="glass p-4 rounded-2xl"><p class="text-[10px] text-gray-500 font-bold uppercase">Accuracy</p><p id="winrate" class="text-xl font-black text-white">0%</p></div>
+                <div class="glass p-4 rounded-2xl"><p class="text-[10px] text-gray-500 font-bold uppercase">Wins</p><p id="wins" class="text-xl font-black text-green-400">0</p></div>
+                <div class="glass p-4 rounded-2xl"><p class="text-[10px] text-gray-500 font-bold uppercase">Losses</p><p id="losses" class="text-xl font-black text-red-400">0</p></div>
+                <div class="glass p-4 rounded-2xl"><p class="text-[10px] text-gray-500 font-bold uppercase">Streak</p><p id="streak" class="text-xl font-black text-blue-400">0W</p></div>
             </div>
         </div>
     </main>
 
-    <footer class="max-w-5xl mx-auto mt-12 text-center border-t border-white/5 pt-8 mb-10">
-        <p class="text-gray-600 text-[10px] tracking-[0.3em] uppercase font-bold">&copy; 2026 DonChike AI Engineering • Proprietary Algorithm</p>
-    </footer>
-
     <script>
         async function fetchAIResults() {
-            // "v=" forces the browser to ignore old cached files
-            const versionBuster = `?v=${new Date().getTime()}`;
+            // FIX: Uses relative path ./ and Cache Buster to force refresh
+            const buster = `?v=${new Date().getTime()}`;
             
             try {
-                // 1. Fetch the 10-Day Accumulator (tracker.json)
-                const trackerRes = await fetch('tracker.json' + versionBuster);
+                // 1. Fetch 10-Day Games
+                const trackerRes = await fetch('./tracker.json' + buster);
                 const trackerData = await trackerRes.json();
                 const list = document.getElementById('master-list');
                 
-                if (trackerData.master_ticket && trackerData.master_ticket.length > 0) {
-                    list.innerHTML = ''; // Clear the loader
-                    trackerData.master_ticket.forEach(game => {
+                // Allow for different key names just in case
+                const games = trackerData.master_ticket || trackerData.accumulator_ticket || [];
+
+                if (games.length > 0) {
+                    list.innerHTML = ''; 
+                    games.forEach(game => {
                         list.innerHTML += `
-                            <div class="bg-white/5 p-4 rounded-xl border border-white/5 flex justify-between items-center hover:bg-white/10 transition-colors cursor-pointer">
+                            <div class="bg-white/5 p-4 rounded-xl border border-white/5 flex justify-between items-center">
                                 <div>
-                                    <p class="text-[10px] text-gray-500 font-black uppercase tracking-widest">${game.day} • ${game.date}</p>
+                                    <p class="text-[10px] text-gray-500 font-black uppercase tracking-widest">${game.day || 'GAME'} • ${game.date}</p>
                                     <p class="text-sm font-bold text-white">${game.match}</p>
                                 </div>
-                                <span class="bg-green-500 text-slate-900 text-[10px] font-black px-2 py-1 rounded shadow-lg shadow-green-500/20 uppercase">Over 2.5</span>
+                                <span class="bg-green-500 text-slate-900 text-[10px] font-black px-2 py-1 rounded shadow-lg uppercase">Over 2.5</span>
                             </div>
                         `;
                     });
                     document.getElementById('total-odds').innerText = "~ 68.45";
+                } else {
+                    list.innerHTML = '<p class="text-gray-500 text-center col-span-2 py-10 italic">Waiting for AI to generate new ticket... Check back in 5 mins.</p>';
                 }
 
-                // 2. Fetch the Stats & 5-Odds (history.json)
-                const historyRes = await fetch('history.json' + versionBuster);
+                // 2. Fetch Stats & Morning Odds
+                const historyRes = await fetch('./history.json' + buster);
                 const historyData = await historyRes.json();
                 
-                // Update stats boxes
                 document.getElementById('winrate').innerText = historyData.win_rate || "0%";
                 document.getElementById('wins').innerText = historyData.total_wins || "0";
                 document.getElementById('losses').innerText = historyData.total_losses || "0";
                 document.getElementById('streak').innerText = historyData.current_streak || "0W";
                 document.getElementById('update-tag').innerText = "UPDATED: " + (historyData.last_update || "NOW");
 
-                // Update Morning 5-Odds Slip
                 const morningBox = document.getElementById('morning-odds');
                 if (historyData.morning_5_odds && historyData.morning_5_odds.length > 0) {
                     morningBox.innerHTML = historyData.morning_5_odds.map(g => `
                         <div class="flex justify-between items-center text-xs border-b border-white/5 pb-3">
                             <span class="text-gray-300 font-medium">${g.match}</span>
-                            <span class="text-green-400 font-black uppercase">${g.tip}</span>
+                            <span class="text-green-400 font-black uppercase">O 2.5</span>
                         </div>
                     `).join('');
                 }
             } catch (error) {
-                console.error("AI Sync Error:", error);
-                // Fail-safe if files are missing or empty
-                document.getElementById('master-list').innerHTML = `
-                    <div class="col-span-2 text-center text-gray-600 py-10">
-                        <p class="text-sm">Waiting for AI Engine to complete the first run...</p>
-                        <p class="text-[10px] mt-2 italic uppercase">Check GitHub Actions Log for Status</p>
-                    </div>`;
+                console.error("Critical Sync Error:", error);
             }
         }
 
-        // Run the fetch as soon as the page opens
         window.onload = fetchAIResults;
     </script>
 </body>
