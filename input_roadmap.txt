@@ -1,772 +1,516 @@
 day 1
 
-Rayo Vallecanoe
-Elche
+Rayo Vallecanoe vs Elche
 
-Paris Saint-Germain
-Toulouse
+Paris Saint-Germain vs Toulouse
 
-Birmingham City
-Blackburn Rovers
+Birmingham City vs Blackburn Rovers
 
-Charlton Athletic
-Bristol City
+Charlton Athletic vs Bristol City
 
-Leicester City
-Preston North End
+Leicester City vs Preston North End
 
-Blackpool
-Exeter City
+Blackpool vs Exeter City
 
-Bradford City
-Northampton Town
+Bradford City vs Northampton Town
 
-Burton Albion
-Barnsley
+Burton Albion vs Barnsley
 
-Huddersfield Town
-Reading
+Huddersfield Town vs Reading
 
-Lincoln City
-AFC Wimbledon
+Lincoln City vs AFC Wimbledon
 
-Luton Town
-Peterborough United
+Luton Town vs Peterborough United
 
-Plymouth Argyle
-Bolton Wanderers
+Plymouth Argyle vs Bolton Wanderers
 
-Rotherham United
-Stevenage
+Rotherham United vs Stevenage
 
-Stockport County
-Wycombe Wanderers
+Stockport County vs Wycombe Wanderers
 
-Favourites
+Accrington Stanley vs Crewe Alexandra
 
-Accrington Stanley
-Crewe Alexandra
+Barnet vs Bromley
 
-Barnet
-Bromley
+Bristol Rovers vs Fleetwood Town
 
-Bristol Rovers
-Fleetwood Town
+Chesterfield vs Cheltenham Town
 
-Chesterfield
-Cheltenham Town
+Colchester United vs Oldham Athletic
 
-Colchester United
-Oldham Athletic
+Grimsby Town vs Harrogate Town
 
-Grimsby Town
-Harrogate Town
+MK Dons vs Barrow
 
-MK Dons
-Barrow
+Newport County vs Crawley Town
 
-Newport County
-Crawley Town
+Salford City vs Notts County
 
-Salford City
-Notts County
+Shrewsbury Town vs Tranmere Rovers
 
-Shrewsbury Town
-Tranmere Rovers
+Walsall vs Gillingham
 
-Walsall
-Gillingham
+Dunkerque vs Rodez
 
-Dunkerque
-Rodez
+FC Annecy vs Guingamp
 
-FC Annecy
-Guingamp
+Grenoble vs Clermont Foot 63
 
-Grenoble
-Clermont Foot 63
+Red Star vs Laval
 
-Red Star
-Laval
+SC Bastia vs Amiens
 
-SC Bastia
-Amiens
+ADO Den Haag vs Jong Ajax
 
-ADO Den Haag
-Jong Ajax
+Almere City FC vs TOP Oss
 
-Almere City FC
-TOP Oss
+FC Dordrecht vs Roda JC Kerkrade
 
-FC Dordrecht
-Roda JC Kerkrade
+FC Eindhoven vs De Graafschap
 
-FC Eindhoven
-De Graafschap
+Jong AZ Alkmaar vs Helmond Sport
 
-Jong AZ Alkmaar
-Helmond Sport
+MVV Maastricht vs RKC Waalwijk
 
-MVV Maastricht
-RKC Waalwijk
+VVV-Venlo vs Cambuur
 
-VVV-Venlo
-Cambuur
+Vitesse vs FC Emmen
 
-Vitesse
-FC Emmen
-
-Willem II
-Jong PSV
+Willem II vs Jong PSV
 
 BREAK
 day 2
 
-Gençlerbirliği
-Goztepe
+Gençlerbirliği vs Goztepe
 
-Kasımpaşa
-Kayserispor
+Kasımpaşa vs Kayserispor
 
-Gaziantep FK
-Alanyaspor
+Gaziantep FK vs Alanyaspor
 
-Trabzonspor
-Galatasaray
+Trabzonspor vs Galatasaray
 
-Nacional
-CF Estrela da Amadora
+Nacional vs CF Estrela da Amadora
 
-Moreirense
-SC Braga
+Moreirense vs SC Braga
 
-Rio Ave
-Alverca
+Rio Ave vs Alverca
 
-FC Porto
-Famalicao
+FC Porto vs Famalicao
 
-Al Ahli
-Damac
+Al Ahli vs Damac
 
-NEOM SC
-Al Feiha
+NEOM SC vs Al Feiha
 
-Al Hilal
-Al Taawoun
+Al Hilal vs Al Taawoun
 
-Hibernian
-Kilmarnock
+Hibernian vs Kilmarnock
 
-Motherwell
-Falkirk
+Motherwell vs Falkirk
 
-Rangers
-Dundee United
+Rangers vs Dundee United
 
-St. Mirren
-Aberdeen
+St. Mirren vs Aberdeen
 
-Arbroath
-St. Johnstone
+Arbroath vs St. Johnstone
 
-Ayr United
-Partick Thistle
+Ayr United vs Partick Thistle
 
-Dunfermline Athletic
-Greenock Morton
+Dunfermline Athletic vs Greenock Morton
 
-Ross County
-Airdrieonians
+Ross County vs Airdrieonians
 
-Sassuolo
-Cagliari
+Sassuolo vs Cagliari
 
-Hellas Verona
-Fiorentina
+Hellas Verona vs Fiorentina
 
-Lazio
-Parma
+Lazio vs Parma
 
-Strasbourg
-Nice
+Strasbourg vs Nice
 
-Brest
-Rennes
+Brest vs Rennes
 
-Lille
-Lens
+Lille vs Lens
 
-Manchester City
-Liverpool
+Manchester City vs Liverpool
 
-Chelsea
-Port Vale
+Chelsea vs Port Vale
 
-Southampton
-Arsenal
+Southampton vs Arsenal
 
-PSV Eindhoven
-FC Utrecht
+PSV Eindhoven vs FC Utrecht
 
-AZ Alkmaar
-Fortuna Sittard
+AZ Alkmaar vs Fortuna Sittard
 
-Telstar
-FC Groningen
+Telstar vs FC Groningen
 
-Ajax
-FC Twente
+Ajax vs FC Twente
 
-Excelsior
-NEC Nijmegen
+Excelsior vs NEC Nijmegen
 
 BREAK
 day 3
 
-Eintracht Braunschweig
-FC Nuremberg
+Eintracht Braunschweig vs FC Nuremberg
 
-Greuther Furth
-Paderborn
+Greuther Furth vs Paderborn
 
-Hannover 96
-Elversberg
+Hannover 96 vs Elversberg
 
-Holstein Kiel
-Preussen Muenster
+Holstein Kiel vs Preussen Muenster
 
-Schalke 04
-Karlsruher SC
+Schalke 04 vs Karlsruher SC
 
-Durham W
-Bristol City W
+Durham W vs Bristol City W
 
-Crystal Palace W
-Ipswich Town W
+Crystal Palace W vs Ipswich Town W
 
-Newcastle United W
-Nottingham Forest W
+Newcastle United W vs Nottingham Forest W
 
-Chapecoense AF
-Vitoria
+Chapecoense AF vs Vitoria
 
-Atletico MG
-Athletico Paranaense
+Atletico MG vs Athletico Paranaense
 
-Flamengo
-Santos FC
+Flamengo vs Santos FC
 
-Bahia
-Palmeiras
+Bahia vs Palmeiras
 
-Corinthians
-Internacional
+Corinthians vs Internacional
 
-Mirassol
-RB Bragantino
+Mirassol vs RB Bragantino
 
-Gremio
-Remo
+Gremio vs Remo
 
 BREAK
 day 4
 
-Argentinos Juniors
-Banfield
+Argentinos Juniors vs Banfield
 
-Instituto Cordoba
-Defensa y Justicia
+Instituto Cordoba vs Defensa y Justicia
 
-Estudiantes de Rio Cuarto
-San Martin de Tucuman
+Estudiantes de Rio Cuarto vs San Martin de Tucuman
 
-Gimnasia Mendoza
-Gimnasia y Tiro
+Gimnasia Mendoza vs Gimnasia y Tiro
 
-Velez Sarsfield
-Deportivo Armenio
+Velez Sarsfield vs Deportivo Armenio
 
-Grasshopper
-Sion
+Grasshopper vs Sion
 
-Servette
-Luzern
+Servette vs Luzern
 
-St. Gallen
-FC Zurich
+St. Gallen vs FC Zurich
 
-Kahrbaa Alasmalia
-Petrojet
+Kahrbaa Alasmalia vs Petrojet
 
-ZED FC
-Al Mokawloon Al Arab
+ZED FC vs Al Mokawloon Al Arab
 
-Udinese
-Como 1907
+Udinese vs Como 1907
 
-Lecce
-Atalanta
+Lecce vs Atalanta
 
-Juventus
-Genoa
+Juventus vs Genoa
 
-Napoli
-AC Milan
+Napoli vs AC Milan
 
-Portsmouth
-Oxford United
+Portsmouth vs Oxford United
 
-Millwall
-Norwich City
+Millwall vs Norwich City
 
-Blackburn Rovers
-West Bromwich Albion
+Blackburn Rovers vs West Bromwich Albion
 
-Bristol City
-Sheffield United
+Bristol City vs Sheffield United
 
-Derby County
-Stoke City
+Derby County vs Stoke City
 
-Ipswich Town
-Birmingham City
+Ipswich Town vs Birmingham City
 
-Preston North End
-QPR
+Preston North End vs QPR
 
-Sheffield Wednesday
-Leicester City
+Sheffield Wednesday vs Leicester City
 
-Watford
-Charlton Athletic
+Watford vs Charlton Athletic
 
-Swansea City
-Middlesbrough
+Swansea City vs Middlesbrough
 
-Hull City
-Coventry City
+Hull City vs Coventry City
 
 BREAK
 day 5
 
-Real Madrid
-Bayern Munich
+Real Madrid vs Bayern Munich
 
-Sporting CP
-Arsenal
+Sporting CP vs Arsenal
 
-Nashville SC
-CF America
+Nashville SC vs CF America
 
-Los Angeles FC
-Cruz Azul
+Los Angeles FC vs Cruz Azul
 
+Wrexham vs Southampton
 
-Wrexham
-Southampton
+Port Vale vs Rotherham United
 
-Port Vale
-Rotherham United
+Gimnasia LP vs CASD Camioneros
 
-Gimnasia LP
-CASD Camioneros
+Sarmiento vs Tristan Suarez
 
-Sarmiento
-Tristan Suarez
+Queretaro FC vs FC Juarez
 
-Queretaro FC
-FC Juarez
+Tapatio vs Tlaxcala FC
 
+FC Nordsjaelland vs Broendby IF
 
-Tapatio
-Tlaxcala FC
+Aalesund vs Fredrikstad
 
-FC Nordsjaelland
-Broendby IF
+KFUM Oslo vs Sandefjord
 
-Aalesund
-Fredrikstad
-
-KFUM Oslo
-Sandefjord
-
-Melbourne City FC
-Central Coast Mariners
+Melbourne City FC vs Central Coast Mariners
 
 BREAK
 day 6
 
-Barcelona
-Atletico Madrid
+Barcelona vs Atletico Madrid
 
-Paris Saint-Germain
-Liverpool
+Paris Saint-Germain vs Liverpool
 
-SC Braga
-Real Betis
+SC Braga vs Real Betis
 
-Tigres
-Seattle Sounders FC
+Tigres vs Seattle Sounders FC
 
-Toluca
-LA Galaxy
+Toluca vs LA Galaxy
 
-Deportivo Riestra
-Palestino
+Deportivo Riestra vs Palestino
 
-Montevideo City Torque
-Gremio
+Montevideo City Torque vs Gremio
 
-Audax Italiano
-Olimpia
+Audax Italiano vs Olimpia
 
-Montana
-PFC CSKA Sofia
+Montana vs PFC CSKA Sofia
 
-Botev Plovdiv
-Lokomotiv Plovdiv
+Botev Plovdiv vs Lokomotiv Plovdiv
 
-TS Galaxy
-Polokwane City
+TS Galaxy vs Polokwane City
 
 BREAK
 day 7
 
-Bologna
-Aston Villa
+Bologna vs Aston Villa
 
-FC Porto
-Nottingham Forest
+FC Porto vs Nottingham Forest
 
-Freiburg
-Celta Vigo
+Freiburg vs Celta Vigo
 
-Rayo Vallecano
-AEK Athens
+Rayo Vallecano vs AEK Athens
 
-Crystal Palace
-Fiorentina
+Crystal Palace vs Fiorentina
 
-Mainz 05
-Strasbourg
+Mainz 05 vs Strasbourg
 
-Shakhtar Donetsk
-AZ Alkmaar
+Shakhtar Donetsk vs AZ Alkmaar
 
-El Geish
-National Bank
+El Geish vs National Bank
 
-Kahrbaa Alasmalia
-Al-Ittihad Alexandria
+Kahrbaa Alasmalia vs Al-Ittihad Alexandria
 
-Al Mokawloon Al Arab
-Ismaily SC
+Al Mokawloon Al Arab vs Ismaily SC
 
-Petrojet
-ZED FC
+Petrojet vs ZED FC
 
-Club Atletico Platense
-Corinthians
+Club Atletico Platense vs Corinthians
 
-Santa Fe
-Club Atletico Penarol
+Santa Fe vs Club Atletico Penarol
 
-Rosario Central
-Independiente del Valle
+Rosario Central vs Independiente del Valle
 
-Universidad Central
-Libertad
+Universidad Central vs Libertad
 
-CSD Macara
-America de Cali
+CSD Macara vs America de Cali
 
-Juventud de las Piedras
-Cienciano
+Juventud de las Piedras vs Cienciano
 
-Botafogo FR
-Caracas
+Botafogo FR vs Caracas
 
-Blooming
-River Plate
+Blooming vs River Plate
 
-Carabobo FC
-RB Bragantino
+Carabobo FC vs RB Bragantino
 
-PFC Lokomotiv Sofia 1929
-Beroe
+PFC Lokomotiv Sofia 1929 vs Beroe
 
-Ludogorets Razgrad
-Cherno More Varna
+Ludogorets Razgrad vs Cherno More Varna
 
-Levski Sofia
-Arda Kardzhali
+Levski Sofia vs Arda Kardzhali
 
 BREAK
 day 8
 
-West Ham United
-Wolves
+West Ham United vs Wolves
 
-Real Madrid
-Girona
+Real Madrid vs Girona
 
-Augsburg
-Hoffenheim
+Augsburg vs Hoffenheim
 
-AS Roma
-Pisa
+AS Roma vs Pisa
 
-Paris FC
-AS Monaco
+Paris FC vs AS Monaco
 
-Marseille
-Metz
+Marseille vs Metz
 
-Famalicao
-Moreirense
+Famalicao vs Moreirense
 
-Al Shabab
-Al Ittihad
+Al Shabab vs Al Ittihad
 
-Queen's Park
-Ross County
+Queen's Park vs Ross County
 
-AD Ceuta FC
-Real Sociedad B
+AD Ceuta FC vs Real Sociedad B
 
-Frosinone
-Palermo
+Frosinone vs Palermo
 
-Fortuna Dusseldorf
-Holstein Kiel
+Fortuna Dusseldorf vs Holstein Kiel
 
-Karlsruher SC
-Arminia Bielefeld
+Karlsruher SC vs Arminia Bielefeld
 
-FC Den Bosch
-Cambuur
+FC Den Bosch vs Cambuur
 
-FC Eindhoven
-Roda JC Kerkrade
+FC Eindhoven vs Roda JC Kerkrade
 
-MVV Maastricht
-Helmond Sport
+MVV Maastricht vs Helmond Sport
 
-RKC Waalwijk
-FC Emmen
+RKC Waalwijk vs FC Emmen
 
-Belgrano
-Aldosivi
+Belgrano vs Aldosivi
 
+Puebla vs Leon
 
-Puebla
-Leon
+FC Juarez vs Tijuana
 
-FC Juarez
-Tijuana
+Alebrijes Oaxaca vs Jaibos Tampico Madero
 
-Alebrijes Oaxaca
-Jaibos Tampico Madero
+Atletico La Paz vs CD Tepatitlan de Morelos
 
-Atletico La Paz
-CD Tepatitlan de Morelos
+AGF vs FC Nordsjaelland
 
-AGF
-FC Nordsjaelland
-
-FC Salzburg
-LASK
+FC Salzburg vs LASK
 
 BREAK
 day 9
 
-Arsenal
-AFC Bournemouth
+Arsenal vs AFC Bournemouth
 
-Brentford
-Everton
+Brentford vs Everton
 
-Burnley
-Brighton
+Burnley vs Brighton
 
-Liverpool
-Fulham
+Liverpool vs Fulham
 
-Real Sociedad
-Deportivo Alaves
+Real Sociedad vs Deportivo Alaves
 
-Elche
-Valencia
+Elche vs Valencia
 
-Barcelona
-Espanyol
+Barcelona vs Espanyol
 
-Sevilla
-Atletico Madrid
+Sevilla vs Atletico Madrid
 
-Borussia Dortmund
-Bayer Leverkusen
+Borussia Dortmund vs Bayer Leverkusen
 
-FC Heidenheim
-Union Berlin
+FC Heidenheim vs Union Berlin
 
-RB Leipzig
-Borussia M'gladbach
+RB Leipzig vs Borussia M'gladbach
 
-Wolfsburg
-Eintracht Frankfurt
+Wolfsburg vs Eintracht Frankfurt
 
-St. Pauli
-Bayern Munich
+St. Pauli vs Bayern Munich
 
-Cagliari
-Cremonese
+Cagliari vs Cremonese
 
-Torino
-Hellas Verona
+Torino vs Hellas Verona
 
-AC Milan
-Udinese
+AC Milan vs Udinese
 
-Atalanta
-Juventus
+Atalanta vs Juventus
 
-Auxerre
-Nantes
+Auxerre vs Nantes
 
-Rennes
-Angers
+Rennes vs Angers
 
-Bristol Rovers
-Crawley Town
+Bristol Rovers vs Crawley Town
 
-MK Dons
-Bromley
+MK Dons vs Bromley
 
-Accrington Stanley
-Fleetwood Town
+Accrington Stanley vs Fleetwood Town
 
-Barnet
-Barrow
+Barnet vs Barrow
 
-Cambridge United
-Notts County
+Cambridge United vs Notts County
 
-Chesterfield
-Tranmere Rovers
+Chesterfield vs Tranmere Rovers
 
+Grimsby Town vs Crewe Alexandra
 
-Grimsby Town
-Crewe Alexandra
+Newport County vs Harrogate Town
 
-Newport County
-Harrogate Town
+Salford City vs Gillingham
 
-Salford City
-Gillingham
+Shrewsbury Town vs Oldham Athletic
 
-Shrewsbury Town
-Oldham Athletic
-
-Walsall
-Cheltenham Town
-
+Walsall vs Cheltenham Town
 
 BREAK
 day 10
 
-Crystal Palace
-Newcastle United
+Crystal Palace vs Newcastle United
 
-Nottingham Forest
-Aston Villa
+Nottingham Forest vs Aston Villa
 
-Sunderland
-Tottenham Hotspur
+Sunderland vs Tottenham Hotspur
 
-Chelsea
-Manchester City
+Chelsea vs Manchester City
 
-Osasuna
-Real Betis
+Osasuna vs Real Betis
 
-Mallorca
-Rayo Vallecano
+Mallorca vs Rayo Vallecano
 
-Celta Vigo
-Real Oviedo
+Celta Vigo vs Real Oviedo
 
-Athletic Club
-Villarreal
+Athletic Club vs Villarreal
 
-FC Cologne
-Werder Bremen
+FC Cologne vs Werder Bremen
 
-VfB Stuttgart
-Hamburger SV
+VfB Stuttgart vs Hamburger SV
 
-Mainz 05
-Freiburg
+Mainz 05 vs Freiburg
 
-Genoa
-Sassuolo
+Genoa vs Sassuolo
 
+Parma vs Napoli
 
-Parma
-Napoli
+Bologna vs Lecce
 
+Como 1907 vs Inter
 
-Bologna
-Lecce
+Nice vs Le Havre
 
-Como 1907
-Inter
+Toulouse vs Lille
 
-Nice
-Le Havre
+Lyon vs Lorient
 
-Toulouse
-Lille
+Club Atletico Platense vs Gimnasia Mendoza
 
-Lyon
-Lorient
+Newell's Old Boys vs San Lorenzo de Almagro
 
-Club Atletico Platense
-Gimnasia Mendoza
+Atletico Tucuman vs Tigre
 
-Newell's Old Boys
-San Lorenzo de Almagro
+CA Huracan vs Rosario Central
 
-Atletico Tucuman
-Tigre
+Racing Club vs River Plate
 
-CA Huracan
-Rosario Central
+Pumas vs Mazatlan FC
 
+Toluca vs Atletico de San Luis
 
-Racing Club
-River Plate
+Mineros de Zacatecas vs Correcaminos de la UAT
 
-Pumas
-Mazatlan FC
+Luzern vs St. Gallen
 
+Sion vs Lausanne
 
-Toluca
-Atletico de San Luis
-
-
-Mineros de Zacatecas
-Correcaminos de la UAT
-
-
-Luzern
-St. Gallen
-
-Sion
-Lausanne
-
-Young Boys
-Servette
+Young Boys vs Servette
 
 BREAK
