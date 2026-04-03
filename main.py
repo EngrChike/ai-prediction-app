@@ -1,67 +1,62 @@
 import os
 import json
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime
 
-class DonChikeAI:
+class DonChikeDeepAI:
     def __init__(self):
         self.api_key = os.getenv('FOOTBALL_API_KEY')
-        self.base_url = "https://v3.football.api-sports.io/fixtures"
         self.headers = {
             'x-rapidapi-key': self.api_key,
             'x-rapidapi-host': 'v3.football.api-sports.io'
         }
 
-    def run(self):
-        print("Initiating Global Scan...")
-        # Get today's date in YYYY-MM-DD
-        today = datetime.now().strftime('%Y-%m-%d')
-        
-        # Approach: Request ALL fixtures for today globally
-        # This bypasses the need to know the specific League ID or Season
-        url = f"{self.base_url}?date={today}"
-        
+    def get_analysis(self, home_id, away_id):
+        """Checks H2H and Form to calculate Intensity."""
         try:
-            response = requests.get(url, headers=self.headers)
-            all_data = response.json().get('response', [])
+            # 1. Fetch Head-to-Head
+            url = f"https://v3.football.api-sports.io/fixtures/headtohead?h2h={home_id}-{away_id}"
+            h2h_data = requests.get(url, headers=self.headers).json().get('response', [])
             
-            if not all_data:
-                # If today is empty (rare), look at tomorrow
-                tomorrow = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
-                url = f"{self.base_url}?date={tomorrow}"
-                all_data = requests.get(url, headers=self.headers).json().get('response', [])
-
-            # Filter for higher-tier matches to keep the quality up
-            # We look for matches where "Status" is 'NS' (Not Started)
-            upcoming = [f for f in all_data if f['fixture']['status']['short'] == 'NS']
+            # 2. Check intensity (e.g., have 80% of their last games been Over 2.5?)
+            over_25_count = sum(1 for g in h2h_data[:5] if (g['goals']['home'] + g['goals']['away']) > 2.5)
             
-            # Sort by league importance (lower ID usually means higher tier)
-            upcoming.sort(key=lambda x: x['league']['id'])
+            # 3. Decision Logic
+            if over_25_count >= 3: # If 3 out of last 5 were high intensity
+                return True, over_25_count * 20 # Return True + Intensity Score
+            return False, 0
+        except:
+            return False, 0
 
-            m_ticket = []
-            for i, f in enumerate(upcoming[:10]):
-                m_ticket.append({
-                    "day": f"Match {i+1}",
-                    "date": datetime.strptime(f['fixture']['date'][:10], "%Y-%m-%d").strftime("%d %b"),
-                    "match": f"{f['teams']['home']['name']} vs {f['teams']['away']['name']}",
-                    "league": f['league']['name']
-                })
-
-            # Force-save the data
-            with open('tracker.json', 'w') as f:
-                json.dump({"master_ticket": m_ticket}, f, indent=4)
+    def run(self):
+        # Scan EPL and Champions League for the best matches
+        leagues = [39, 2] 
+        final_picks = []
+        
+        for lid in leagues:
+            url = f"https://v3.football.api-sports.io/fixtures?league={lid}&season=2025&next=10"
+            fixtures = requests.get(url, headers=self.headers).json().get('response', [])
             
-            with open('history.json', 'w') as f:
-                json.dump({
-                    "morning_5_odds": m_ticket[:3],
-                    "win_rate": "91%", "total_wins": 158, "total_losses": 14, "current_streak": "8W",
-                    "last_update": datetime.now().strftime("%H:%M")
-                }, f, indent=4)
+            for f in fixtures:
+                home_id = f['teams']['home']['id']
+                away_id = f['teams']['away']['id']
                 
-            print(f"Global Scan Complete. Found {len(m_ticket)} matches.")
+                # RUN THE BRAIN: Analyze H2H and Intensity
+                is_good, intensity_score = self.get_analysis(home_id, away_id)
+                
+                if is_good and len(final_picks) < 10:
+                    final_picks.append({
+                        "day": f"Day {len(final_picks)+1}",
+                        "date": datetime.strptime(f['fixture']['date'][:10], "%Y-%m-%d").strftime("%d %b"),
+                        "match": f"{f['teams']['home']['name']} vs {f['teams']['away']['name']}",
+                        "intensity": f"{intensity_score}%",
+                        "analysis": "High H2H Over 2.5 Trend"
+                    })
 
-        except Exception as e:
-            print(f"System Error: {e}")
+        # Save the analyzed data
+        with open('tracker.json', 'w') as f:
+            json.dump({"master_ticket": final_picks}, f, indent=4)
+        print(f"Deep Analysis Complete: {len(final_picks)} high-intensity games locked.")
 
 if __name__ == "__main__":
-    DonChikeAI().run()
+    DonChikeDeepAI().run()
