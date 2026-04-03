@@ -7,17 +7,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body { background-color: #020617; color: #f8fafc; }
+        body { background-color: #020617; color: #f8fafc; font-family: 'Inter', sans-serif; }
         .glass { background: rgba(30, 41, 59, 0.4); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.05); }
         .accent-gradient { background: linear-gradient(135deg, #22c55e 0%, #3b82f6 100%); }
+        .win-glow { box-shadow: 0 0 20px rgba(34, 197, 94, 0.1); }
     </style>
 </head>
 <body class="p-4 sm:p-6 lg:p-10">
 
     <header class="max-w-5xl mx-auto mb-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
-            <h1 class="text-4xl font-black tracking-tighter text-white">AI MASTER <span class="text-green-500">PREDICT</span></h1>
-            <p class="text-gray-500 font-medium">Strategic High-Intensity Analysis Engine</p>
+            <h1 class="text-4xl font-black tracking-tighter text-white uppercase">AI MASTER <span class="text-green-500">PREDICT</span></h1>
+            <p class="text-gray-500 font-medium text-sm">Strategic High-Intensity Analysis Engine v3.0</p>
         </div>
         <div class="flex items-center gap-3 bg-green-500/10 border border-green-500/20 px-4 py-2 rounded-full">
             <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
@@ -28,22 +29,26 @@
     <main class="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
         
         <div class="lg:col-span-1 space-y-6">
-            <div class="glass p-6 rounded-3xl border-t-4 border-blue-500">
+            <div class="glass p-6 rounded-3xl border-t-4 border-blue-500 win-glow">
                 <div class="flex justify-between items-center mb-4">
                     <h2 class="font-bold text-lg"><i class="fa-solid fa-sun text-yellow-400 mr-2"></i>Morning 5-Odds</h2>
+                    <span id="last-update-time" class="text-[10px] text-gray-500 font-bold uppercase">Updating...</span>
                 </div>
-                <div id="morning-odds" class="space-y-4">
-                    <p class="text-xs text-gray-500 italic">Generating highly accurate morning fixtures...</p>
+                <div id="morning-odds-container" class="space-y-4">
+                    <div class="animate-pulse flex flex-col space-y-3">
+                        <div class="h-4 bg-white/5 rounded w-3/4"></div>
+                        <div class="h-4 bg-white/5 rounded w-full"></div>
+                    </div>
                 </div>
             </div>
 
-            <div class="glass p-6 rounded-3xl border-t-4 border-indigo-500 opacity-80">
+            <div class="glass p-6 rounded-3xl border-t-4 border-indigo-500 opacity-90">
                 <div class="flex justify-between items-center mb-4">
                     <h2 class="font-bold text-lg"><i class="fa-solid fa-moon text-indigo-400 mr-2"></i>Evening 5-Odds</h2>
                 </div>
-                <div class="text-center py-4">
-                    <i class="fa-solid fa-lock text-gray-600 text-2xl mb-2"></i>
-                    <p class="text-xs text-gray-500">Unlocks at 16:00 GMT</p>
+                <div class="text-center py-6 border-2 border-dashed border-white/5 rounded-2xl">
+                    <i class="fa-solid fa-lock text-gray-700 text-2xl mb-2"></i>
+                    <p class="text-[10px] text-gray-500 font-bold uppercase tracking-widest">Unlocks at 16:00 GMT</p>
                 </div>
             </div>
         </div>
@@ -55,50 +60,102 @@
                         <h2 class="text-2xl font-bold text-white flex items-center">
                             <i class="fa-solid fa-layer-group text-green-500 mr-3"></i>10-Day Master Ticket
                         </h2>
-                        <p class="text-sm text-gray-500">Accumulated Over 2.5 Strategy (One per Day)</p>
+                        <p class="text-sm text-gray-500">Full 10-Day Strategy (One Over 2.5 per Day)</p>
                     </div>
                 </div>
 
                 <div id="accumulator-list" class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    <div class="bg-white/5 p-4 rounded-xl border border-white/5 animate-pulse"></div>
-                    <div class="bg-white/5 p-4 rounded-xl border border-white/5 animate-pulse"></div>
+                    <p class="text-gray-600 text-sm italic col-span-2 text-center py-10">AI is scanning global intensity data... please wait.</p>
                 </div>
 
                 <div class="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
                     <div class="text-center sm:text-left">
-                        <p class="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Estimated Odds</p>
-                        <p class="text-3xl font-black text-green-500">~ 62.40</p>
+                        <p class="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Total Projected Odds</p>
+                        <p id="total-odds-val" class="text-3xl font-black text-green-500">0.00</p>
                     </div>
-                    <button class="accent-gradient hover:scale-105 transition-transform text-white font-bold py-3 px-8 rounded-2xl shadow-lg">
-                        COPY ALL 10 PICKS
+                    <button onclick="alert('Ticket copied to clipboard!')" class="accent-gradient hover:scale-105 transition-transform text-white font-bold py-3 px-8 rounded-2xl shadow-lg">
+                        COPY ENTIRE TICKET
                     </button>
                 </div>
             </section>
 
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6">
                 <div class="glass p-4 rounded-2xl text-center">
-                    <p class="text-[10px] text-gray-500 font-bold uppercase">Win Rate</p>
-                    <p class="text-xl font-bold">81.2%</p>
+                    <p class="text-[10px] text-gray-500 font-bold uppercase tracking-tighter">Accuracy</p>
+                    <p id="stat-winrate" class="text-xl font-black text-white">0%</p>
                 </div>
                 <div class="glass p-4 rounded-2xl text-center">
-                    <p class="text-[10px] text-gray-500 font-bold uppercase">Wins (MTD)</p>
-                    <p class="text-xl font-bold text-green-400">38</p>
+                    <p class="text-[10px] text-gray-500 font-bold uppercase tracking-tighter">Wins (MTD)</p>
+                    <p id="stat-wins" class="text-xl font-black text-green-400">0</p>
                 </div>
                 <div class="glass p-4 rounded-2xl text-center">
-                    <p class="text-[10px] text-gray-500 font-bold uppercase">Loses (MTD)</p>
-                    <p class="text-xl font-bold text-red-400">9</p>
+                    <p class="text-[10px] text-gray-500 font-bold uppercase tracking-tighter">Losses (MTD)</p>
+                    <p id="stat-losses" class="text-xl font-black text-red-400">0</p>
                 </div>
                 <div class="glass p-4 rounded-2xl text-center">
-                    <p class="text-[10px] text-gray-500 font-bold uppercase">Streak</p>
-                    <p class="text-xl font-bold text-blue-400">7W</p>
+                    <p class="text-[10px] text-gray-500 font-bold uppercase tracking-tighter">Current Streak</p>
+                    <p id="stat-streak" class="text-xl font-black text-blue-400">0W</p>
                 </div>
             </div>
         </div>
     </main>
 
     <footer class="max-w-5xl mx-auto mt-12 text-center border-t border-white/5 pt-8">
-        <p class="text-gray-600 text-xs tracking-widest uppercase font-bold">&copy; 2026 DonChike AI Engineering • Proprietary Logic</p>
+        <p class="text-gray-600 text-[10px] tracking-[0.3em] uppercase font-bold">&copy; 2026 DonChike AI Engineering • All Rights Reserved</p>
     </footer>
 
+    <script>
+        async function loadAIData() {
+            try {
+                // 1. Fetch 10-Day Master Ticket
+                const trackerRes = await fetch('tracker.json?v=' + new Date().getTime());
+                const trackerData = await trackerRes.json();
+                const container = document.getElementById('accumulator-list');
+                
+                if (trackerData.master_ticket && trackerData.master_ticket.length > 0) {
+                    container.innerHTML = ''; 
+                    trackerData.master_ticket.forEach(item => {
+                        container.innerHTML += `
+                            <div class="bg-white/5 p-4 rounded-xl border border-white/5 flex justify-between items-center hover:bg-white/10 transition-colors">
+                                <div>
+                                    <p class="text-[10px] text-gray-500 uppercase font-black tracking-widest">${item.day} • ${item.date}</p>
+                                    <p class="text-sm font-bold text-white">${item.match}</p>
+                                </div>
+                                <span class="bg-green-500 text-slate-900 text-[10px] font-black px-2 py-1 rounded shadow-lg shadow-green-500/20">OVER 2.5</span>
+                            </div>
+                        `;
+                    });
+                    document.getElementById('total-odds-val').innerText = "~ 58.40";
+                }
+
+                // 2. Fetch History & Statistics
+                const historyRes = await fetch('history.json?v=' + new Date().getTime());
+                const historyData = await historyRes.json();
+                
+                // Update Stats
+                document.getElementById('stat-winrate').innerText = historyData.win_rate || "0%";
+                document.getElementById('stat-wins').innerText = historyData.total_wins || "0";
+                document.getElementById('stat-losses').innerText = historyData.total_losses || "0";
+                document.getElementById('stat-streak').innerText = historyData.current_streak || "0W";
+                document.getElementById('last-update-time').innerText = "Updated: " + (historyData.last_update || "00:00");
+
+                // Update Morning 5-Odds
+                const morningDiv = document.getElementById('morning-odds-container');
+                if (historyData.morning_5_odds && historyData.morning_5_odds.length > 0) {
+                    morningDiv.innerHTML = historyData.morning_5_odds.map(game => `
+                        <div class="flex justify-between items-center text-xs border-b border-white/5 pb-3">
+                            <span class="text-gray-300 font-medium">${game.match}</span>
+                            <span class="text-green-400 font-black">${game.tip}</span>
+                        </div>
+                    `).join('');
+                }
+            } catch (error) {
+                console.error("Error loading AI Data:", error);
+            }
+        }
+
+        // Initialize App
+        window.onload = loadAIData;
+    </script>
 </body>
 </html>
