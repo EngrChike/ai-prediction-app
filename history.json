@@ -2,49 +2,49 @@
     "morning_5_odds": [
         {
             "match": "Gen\u00e7lerbirli\u011fi vs Goztepe",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
+            "intensity": "72.5%",
+            "score_raw": 72.5,
             "status": "PENDING",
-            "analysis": "AI Audit: High Intensity Verified"
+            "analysis": "AI Scoped: Top Intensity Found"
         },
         {
             "match": "Kas\u0131mpa\u015fa vs Kayserispor",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
+            "intensity": "72.5%",
+            "score_raw": 72.5,
             "status": "PENDING",
-            "analysis": "AI Audit: High Intensity Verified"
+            "analysis": "AI Scoped: Top Intensity Found"
         },
         {
             "match": "Gaziantep FK vs Alanyaspor",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
+            "intensity": "72.5%",
+            "score_raw": 72.5,
             "status": "PENDING",
-            "analysis": "AI Audit: High Intensity Verified"
+            "analysis": "AI Scoped: Top Intensity Found"
         }
     ],
     "evening_5_odds": [
         {
             "match": "Dunfermline Athletic vs Greenock Morton",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
+            "intensity": "72.5%",
+            "score_raw": 72.5,
             "status": "PENDING",
-            "analysis": "AI Audit: High Intensity Verified"
+            "analysis": "AI Scoped: Top Intensity Found"
         },
         {
             "match": "Ross County vs Airdrieonians",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
+            "intensity": "72.5%",
+            "score_raw": 72.5,
             "status": "PENDING",
-            "analysis": "AI Audit: High Intensity Verified"
+            "analysis": "AI Scoped: Top Intensity Found"
         },
         {
             "match": "Sassuolo vs Cagliari",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
+            "intensity": "72.5%",
+            "score_raw": 72.5,
             "status": "PENDING",
-            "analysis": "AI Audit: High Intensity Verified"
+            "analysis": "AI Scoped: Top Intensity Found"
         }
     ],
     "win_rate": "92%",
-    "last_update": "01:40"
+    "last_update": "02:28"
 }
