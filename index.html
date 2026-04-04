@@ -3,105 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI MASTER PREDICT | DonChike</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Don Chike Elite - Goal Intensity Analysis</title>
     <style>
-        body { background-color: #020617; color: #f8fafc; font-family: 'Inter', sans-serif; }
-        .glass { background: rgba(30, 41, 59, 0.4); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.05); }
-        .intensity-bar { height: 4px; background: #1e293b; border-radius: 2px; overflow: hidden; }
-        .intensity-fill { height: 100%; background: linear-gradient(90deg, #22c55e, #3b82f6); transition: width 1s; }
+        :root {
+            --primary: #004d40;
+            --accent: #ffc107;
+            --win-bg: #d4edda;
+            --win-text: #155724;
+            --loss-bg: #f8d7da;
+            --loss-text: #721c24;
+            --pending-bg: #e2e3e5;
+            --pending-text: #383d41;
+        }
+
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f6; margin: 0; padding: 20px; }
+        header { background: var(--primary); color: white; padding: 20px; text-align: center; border-radius: 8px; margin-bottom: 20px; }
+        
+        .container { max-width: 1200px; margin: auto; }
+        .section-title { border-left: 5px solid var(--accent); padding-left: 15px; margin: 30px 0 15px; color: var(--primary); }
+
+        /* Odds & Roadmap Grid */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+
+        /* Status Badges */
+        .status-badge { display: inline-block; padding: 5px 12px; border-radius: 20px; font-weight: bold; font-size: 0.85em; margin-top: 10px; }
+        .win { background: var(--win-bg); color: var(--win-text); border: 1px solid #c3e6cb; }
+        .loss { background: var(--loss-bg); color: var(--loss-text); border: 1px solid #f5c6cb; }
+        .pending { background: var(--pending-bg); color: var(--pending-text); border: 1px solid #d6d8db; }
+
+        .intensity { color: #555; font-size: 0.9em; font-weight: 600; }
+        .day-label { color: var(--accent); font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 5px; }
+        .match-text { font-size: 1.2em; font-weight: bold; color: #333; margin: 10px 0; }
+        
+        footer { text-align: center; margin-top: 50px; padding: 20px; color: #777; border-top: 1px solid #ddd; }
     </style>
 </head>
-<body class="p-4 md:p-10">
-    <header class="max-w-5xl mx-auto mb-10 flex flex-col md:flex-row justify-between items-center gap-4">
-        <div>
-            <h1 class="text-4xl font-black text-white uppercase">AI MASTER <span class="text-green-500">PREDICT</span></h1>
-            <p class="text-gray-500 italic text-sm">Strategic Manual-Scout Engine v3.0</p>
+<body>
+
+<header>
+    <h1>DON CHIKE ELITE ANALYSIS</h1>
+    <p>Data-Driven Football Intensity Scouting</p>
+</header>
+
+<div class="container">
+    
+    <h2 class="section-title">Daily High-Intensity Selections</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Morning 5-Odds Pool</h3>
+            <div id="morning-list">Loading Daily Audit...</div>
         </div>
-        <div id="status" class="bg-green-500/10 border border-green-500/20 px-4 py-2 rounded-full text-[10px] font-bold text-green-400 uppercase tracking-widest">
-            LIVE SYNC: --:--
+        <div class="card">
+            <h3>Evening 5-Odds Pool</h3>
+            <div id="evening-list">Loading Daily Audit...</div>
         </div>
-    </header>
+    </div>
 
-    <main class="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <div class="lg:col-span-1 space-y-6">
-            <div class="glass p-6 rounded-3xl border-t-4 border-yellow-500">
-                <h2 class="font-bold mb-4 text-yellow-400 flex items-center">
-                    <i class="fa-solid fa-sun mr-2"></i>Morning 5-Odds
-                </h2>
-                <div id="morning-odds" class="space-y-3"></div>
-            </div>
-
-            <div class="glass p-6 rounded-3xl border-t-4 border-orange-500">
-                <h2 class="font-bold mb-4 text-orange-400 flex items-center">
-                    <i class="fa-solid fa-moon mr-2"></i>Evening 5-Odds
-                </h2>
-                <div id="evening-odds" class="space-y-3"></div>
-            </div>
-
-            <div class="glass p-6 rounded-3xl text-center">
-                <p class="text-[10px] text-gray-500 font-bold uppercase tracking-widest">Win Rate</p>
-                <p id="winrate" class="text-4xl font-black text-white">91%</p>
-            </div>
+    <h2 class="section-title">10-Day Survival Roadmap</h2>
+    <div class="grid" id="roadmap-list">
         </div>
 
-        <div class="lg:col-span-2">
-            <section class="glass p-8 rounded-3xl border-t-4 border-green-500 shadow-2xl">
-                <h2 class="text-2xl font-bold mb-6 flex items-center">
-                    <i class="fa-solid fa-microchip text-green-500 mr-3"></i>10-Day Roadmap (O 2.5)
-                </h2>
-                <div id="master-list" class="space-y-4"></div>
-            </section>
-        </div>
-    </main>
+</div>
 
-    <script>
-        async function loadData() {
-            const b = `?v=${Date.now()}`;
-            try {
-                const hRes = await fetch('./history.json' + b);
-                const hData = await hRes.json();
-                
-                document.getElementById('status').innerText = "LIVE SYNC: " + hData.last_update;
-                
-                // Fill Morning
-                const mBox = document.getElementById('morning-odds');
-                mBox.innerHTML = hData.morning_5_odds.length ? hData.morning_5_odds.map(m => `
-                    <div class="bg-white/5 p-3 rounded-xl flex justify-between text-xs items-center">
-                        <span class="font-medium">${m.match}</span><span class="text-green-500 font-bold">O 2.5</span>
-                    </div>
-                `).join('') : '<p class="text-gray-600 text-xs text-center italic">Processing Morning picks...</p>';
+<footer>
+    <p>&copy; 2026 AkuDon Global. Predictive AI Verification Active.</p>
+    <p id="last-update">Last Update: --:--</p>
+</footer>
 
-                // Fill Evening
-                const eBox = document.getElementById('evening-odds');
-                eBox.innerHTML = hData.evening_5_odds.length ? hData.evening_5_odds.map(m => `
-                    <div class="bg-white/5 p-3 rounded-xl flex justify-between text-xs items-center">
-                        <span class="font-medium">${m.match}</span><span class="text-orange-500 font-bold">O 2.5</span>
-                    </div>
-                `).join('') : '<p class="text-gray-600 text-xs text-center italic">Awaiting Evening list...</p>';
+<script>
+    // Configuration
+    const DAILY_URL = 'history.json';
+    const ROADMAP_URL = 'tracker.json';
 
-                // Fill Roadmap
-                const tRes = await fetch('./tracker.json' + b);
-                const tData = await tRes.json();
-                const list = document.getElementById('master-list');
-                list.innerHTML = tData.master_ticket.map(g => `
-                    <div class="bg-white/5 p-4 rounded-2xl border border-white/5 hover:border-green-500/20 transition-all">
-                        <div class="flex justify-between items-center mb-2">
-                            <div>
-                                <p class="text-[10px] text-gray-500 font-black uppercase">${g.day} • ${g.date}</p>
-                                <p class="font-bold text-white text-lg">${g.match}</p>
-                            </div>
-                            <span class="text-xs text-green-400 font-bold">${g.intensity}</span>
-                        </div>
-                        <div class="intensity-bar mb-2"><div class="intensity-fill" style="width:${g.intensity}"></div></div>
-                        <p class="text-[10px] text-gray-400 italic font-medium"><i class="fa-solid fa-check-double mr-1"></i>${g.analysis}</p>
-                    </div>
-                `).join('');
+    async function fetchData() {
+        try {
+            // 1. Load Daily Picks
+            const dailyRes = await fetch(DAILY_URL);
+            const dailyData = await dailyRes.json();
+            
+            document.getElementById('last-update').innerText = `Last AI Audit: ${dailyData.last_update}`;
+            renderDaily(dailyData.morning_5_odds, 'morning-list');
+            renderDaily(dailyData.evening_5_odds, 'evening-list');
 
-            } catch(e) { console.error("Sync Error:", e); }
+            // 2. Load Roadmap
+            const roadmapRes = await fetch(ROADMAP_URL);
+            const roadmapData = await roadmapRes.json();
+            renderRoadmap(roadmapData.master_ticket);
+
+        } catch (error) {
+            console.error("Error loading analysis data:", error);
         }
-        window.onload = loadData;
-    </script>
+    }
+
+    function getStatusClass(status) {
+        if (status.includes("✅")) return "win";
+        if (status.includes("❌")) return "loss";
+        return "pending";
+    }
+
+    function renderDaily(games, elementId) {
+        const container = document.getElementById(elementId);
+        if (!games || games.length === 0) {
+            container.innerHTML = "<p>No games analyzed for this period.</p>";
+            return;
+        }
+        
+        container.innerHTML = games.map(g => `
+            <div style="border-bottom: 1px solid #eee; padding: 10px 0;">
+                <div class="match-text" style="font-size: 1em;">${g.match}</div>
+                <div class="intensity">Goal Potential: ${g.intensity}</div>
+                <div class="status-badge ${getStatusClass(g.status)}">${g.status}</div>
+            </div>
+        `).join('');
+    }
+
+    function renderRoadmap(games) {
+        const container = document.getElementById('roadmap-list');
+        container.innerHTML = games.map(g => `
+            <div class="card">
+                <span class="day-label">${g.day}</span>
+                <div class="match-text">${g.match}</div>
+                <div class="intensity">AI Intensity Score: ${g.intensity}</div>
+                <div class="status-badge ${getStatusClass(g.status)}">${g.status}</div>
+                <p style="font-size: 0.8em; color: #888; margin-top: 10px;">${g.analysis}</p>
+            </div>
+        `).join('');
+    }
+
+    // Auto-refresh data every 5 minutes
+    fetchData();
+    setInterval(fetchData, 300000);
+</script>
+
 </body>
 </html>
