@@ -2,49 +2,49 @@
     "morning_5_odds": [
         {
             "match": "Gen\u00e7lerbirli\u011fi vs Goztepe",
-            "intensity": "72.5%",
-            "score_raw": 72.5,
+            "intensity": "72.0%",
+            "score_raw": 72.0,
             "status": "PENDING",
-            "analysis": "Strategic Form Audit"
+            "analysis": "AI Audit: High Intensity Verified"
         },
         {
             "match": "Kas\u0131mpa\u015fa vs Kayserispor",
-            "intensity": "72.5%",
-            "score_raw": 72.5,
+            "intensity": "72.0%",
+            "score_raw": 72.0,
             "status": "PENDING",
-            "analysis": "Strategic Form Audit"
+            "analysis": "AI Audit: High Intensity Verified"
         },
         {
             "match": "Gaziantep FK vs Alanyaspor",
-            "intensity": "72.5%",
-            "score_raw": 72.5,
+            "intensity": "72.0%",
+            "score_raw": 72.0,
             "status": "PENDING",
-            "analysis": "Strategic Form Audit"
+            "analysis": "AI Audit: High Intensity Verified"
         }
     ],
     "evening_5_odds": [
         {
             "match": "Dunfermline Athletic vs Greenock Morton",
-            "intensity": "72.5%",
-            "score_raw": 72.5,
+            "intensity": "72.0%",
+            "score_raw": 72.0,
             "status": "PENDING",
-            "analysis": "Strategic Form Audit"
+            "analysis": "AI Audit: High Intensity Verified"
         },
         {
             "match": "Ross County vs Airdrieonians",
-            "intensity": "72.5%",
-            "score_raw": 72.5,
+            "intensity": "72.0%",
+            "score_raw": 72.0,
             "status": "PENDING",
-            "analysis": "Strategic Form Audit"
+            "analysis": "AI Audit: High Intensity Verified"
         },
         {
             "match": "Sassuolo vs Cagliari",
-            "intensity": "72.5%",
-            "score_raw": 72.5,
+            "intensity": "72.0%",
+            "score_raw": 72.0,
             "status": "PENDING",
-            "analysis": "Strategic Form Audit"
+            "analysis": "AI Audit: High Intensity Verified"
         }
     ],
     "win_rate": "92%",
-    "last_update": "01:10"
+    "last_update": "01:40"
 }
