@@ -1,9 +1,47 @@
 {
-    "morning_5_odds": [],
-    "evening_5_odds": [],
+    "morning_5_odds": [
+        {
+            "match": "Gen\u00e7lerbirli\u011fi vs Goztepe",
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification"
+        },
+        {
+            "match": "Kas\u0131mpa\u015fa vs Kayserispor",
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification"
+        },
+        {
+            "match": "Gaziantep FK vs Alanyaspor",
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification"
+        }
+    ],
+    "evening_5_odds": [
+        {
+            "match": "Dunfermline Athletic vs Greenock Morton",
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification"
+        },
+        {
+            "match": "Ross County vs Airdrieonians",
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification"
+        },
+        {
+            "match": "Sassuolo vs Cagliari",
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification"
+        }
+    ],
     "win_rate": "91%",
     "total_wins": 158,
     "total_losses": 14,
     "current_streak": "8W",
-    "last_update": "21:42"
+    "last_update": "00:45"
 }

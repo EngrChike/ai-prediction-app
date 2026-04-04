@@ -1,74 +1,84 @@
 {
     "master_ticket": [
         {
-            "day": "DAY 1",
-            "date": "STRATEGIC PICK",
             "match": "Rayo Vallecanoe vs Elche",
-            "intensity": "72.5%",
-            "analysis": "AI Filter: Best Intensity of 39 analyzed games"
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification",
+            "day": "DAY 1",
+            "date": "AUDITED PICK"
         },
         {
-            "day": "DAY 2",
-            "date": "STRATEGIC PICK",
             "match": "Gen\u00e7lerbirli\u011fi vs Goztepe",
-            "intensity": "72.5%",
-            "analysis": "AI Filter: Best Intensity of 33 analyzed games"
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification",
+            "day": "DAY 2",
+            "date": "AUDITED PICK"
         },
         {
-            "day": "DAY 3",
-            "date": "STRATEGIC PICK",
             "match": "Eintracht Braunschweig vs FC Nuremberg",
-            "intensity": "72.5%",
-            "analysis": "AI Filter: Best Intensity of 15 analyzed games"
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification",
+            "day": "DAY 3",
+            "date": "AUDITED PICK"
         },
         {
-            "day": "DAY 4",
-            "date": "STRATEGIC PICK",
             "match": "Argentinos Juniors vs Banfield",
-            "intensity": "72.5%",
-            "analysis": "AI Filter: Best Intensity of 25 analyzed games"
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification",
+            "day": "DAY 4",
+            "date": "AUDITED PICK"
         },
         {
-            "day": "DAY 5",
-            "date": "STRATEGIC PICK",
             "match": "Real Madrid vs Bayern Munich",
-            "intensity": "72.5%",
-            "analysis": "AI Filter: Best Intensity of 14 analyzed games"
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification",
+            "day": "DAY 5",
+            "date": "AUDITED PICK"
         },
         {
-            "day": "DAY 6",
-            "date": "STRATEGIC PICK",
             "match": "Barcelona vs Atletico Madrid",
-            "intensity": "72.5%",
-            "analysis": "AI Filter: Best Intensity of 11 analyzed games"
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification",
+            "day": "DAY 6",
+            "date": "AUDITED PICK"
         },
         {
-            "day": "DAY 7",
-            "date": "STRATEGIC PICK",
             "match": "Bologna vs Aston Villa",
-            "intensity": "72.5%",
-            "analysis": "AI Filter: Best Intensity of 23 analyzed games"
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification",
+            "day": "DAY 7",
+            "date": "AUDITED PICK"
         },
         {
-            "day": "DAY 8",
-            "date": "STRATEGIC PICK",
             "match": "West Ham United vs Wolves",
-            "intensity": "72.5%",
-            "analysis": "AI Filter: Best Intensity of 24 analyzed games"
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification",
+            "day": "DAY 8",
+            "date": "AUDITED PICK"
         },
         {
-            "day": "DAY 9",
-            "date": "STRATEGIC PICK",
             "match": "Arsenal vs AFC Bournemouth",
-            "intensity": "72.5%",
-            "analysis": "AI Filter: Best Intensity of 30 analyzed games"
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification",
+            "day": "DAY 9",
+            "date": "AUDITED PICK"
         },
         {
-            "day": "DAY 10",
-            "date": "STRATEGIC PICK",
             "match": "Crystal Palace vs Newcastle United",
-            "intensity": "72.5%",
-            "analysis": "AI Filter: Best Intensity of 29 analyzed games"
+            "intensity": "72.0%",
+            "score_raw": 72.0,
+            "analysis": "Strategic Form Verification",
+            "day": "DAY 10",
+            "date": "AUDITED PICK"
         }
     ]
 }
