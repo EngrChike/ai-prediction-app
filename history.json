@@ -1,21 +1,21 @@
 {
     "morning_5_odds": [
         {
-            "match": "Gen\u00e7lerbirli\u011fi vs Goztepe",
+            "match": "Eintracht Braunschweig vs FC Nuremberg",
             "intensity": "72.5%",
             "score_raw": 72.5,
             "status": "PENDING",
             "analysis": "AI Scoped: Top Intensity Found"
         },
         {
-            "match": "Kas\u0131mpa\u015fa vs Kayserispor",
+            "match": "Greuther Furth vs Paderborn",
             "intensity": "72.5%",
             "score_raw": 72.5,
             "status": "PENDING",
             "analysis": "AI Scoped: Top Intensity Found"
         },
         {
-            "match": "Gaziantep FK vs Alanyaspor",
+            "match": "Hannover 96 vs Elversberg",
             "intensity": "72.5%",
             "score_raw": 72.5,
             "status": "PENDING",
@@ -24,21 +24,21 @@
     ],
     "evening_5_odds": [
         {
-            "match": "Dunfermline Athletic vs Greenock Morton",
+            "match": "Newcastle United W vs Nottingham Forest W",
             "intensity": "72.5%",
             "score_raw": 72.5,
             "status": "PENDING",
             "analysis": "AI Scoped: Top Intensity Found"
         },
         {
-            "match": "Ross County vs Airdrieonians",
+            "match": "Chapecoense AF vs Vitoria",
             "intensity": "72.5%",
             "score_raw": 72.5,
             "status": "PENDING",
             "analysis": "AI Scoped: Top Intensity Found"
         },
         {
-            "match": "Sassuolo vs Cagliari",
+            "match": "Atletico MG vs Athletico Paranaense",
             "intensity": "72.5%",
             "score_raw": 72.5,
             "status": "PENDING",
@@ -46,5 +46,5 @@
         }
     ],
     "win_rate": "92%",
-    "last_update": "06:03"
+    "last_update": "23:02"
 }
