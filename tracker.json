@@ -2,83 +2,93 @@
     "master_ticket": [
         {
             "match": "Rayo Vallecanoe vs Elche",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
-            "analysis": "Strategic Form Verification",
+            "intensity": "72.5%",
+            "score_raw": 72.5,
+            "status": "PENDING",
+            "analysis": "Strategic Form Audit",
             "day": "DAY 1",
-            "date": "AUDITED PICK"
+            "date": "04 Apr"
         },
         {
             "match": "Gen\u00e7lerbirli\u011fi vs Goztepe",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
-            "analysis": "Strategic Form Verification",
+            "intensity": "72.5%",
+            "score_raw": 72.5,
+            "status": "PENDING",
+            "analysis": "Strategic Form Audit",
             "day": "DAY 2",
-            "date": "AUDITED PICK"
+            "date": "04 Apr"
         },
         {
             "match": "Eintracht Braunschweig vs FC Nuremberg",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
-            "analysis": "Strategic Form Verification",
+            "intensity": "72.5%",
+            "score_raw": 72.5,
+            "status": "PENDING",
+            "analysis": "Strategic Form Audit",
             "day": "DAY 3",
-            "date": "AUDITED PICK"
+            "date": "04 Apr"
         },
         {
             "match": "Argentinos Juniors vs Banfield",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
-            "analysis": "Strategic Form Verification",
+            "intensity": "72.5%",
+            "score_raw": 72.5,
+            "status": "PENDING",
+            "analysis": "Strategic Form Audit",
             "day": "DAY 4",
-            "date": "AUDITED PICK"
+            "date": "04 Apr"
         },
         {
             "match": "Real Madrid vs Bayern Munich",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
-            "analysis": "Strategic Form Verification",
+            "intensity": "72.5%",
+            "score_raw": 72.5,
+            "status": "PENDING",
+            "analysis": "Strategic Form Audit",
             "day": "DAY 5",
-            "date": "AUDITED PICK"
+            "date": "04 Apr"
         },
         {
             "match": "Barcelona vs Atletico Madrid",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
-            "analysis": "Strategic Form Verification",
+            "intensity": "72.5%",
+            "score_raw": 72.5,
+            "status": "PENDING",
+            "analysis": "Strategic Form Audit",
             "day": "DAY 6",
-            "date": "AUDITED PICK"
+            "date": "04 Apr"
         },
         {
             "match": "Bologna vs Aston Villa",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
-            "analysis": "Strategic Form Verification",
+            "intensity": "72.5%",
+            "score_raw": 72.5,
+            "status": "PENDING",
+            "analysis": "Strategic Form Audit",
             "day": "DAY 7",
-            "date": "AUDITED PICK"
+            "date": "04 Apr"
         },
         {
             "match": "West Ham United vs Wolves",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
-            "analysis": "Strategic Form Verification",
+            "intensity": "72.5%",
+            "score_raw": 72.5,
+            "status": "PENDING",
+            "analysis": "Strategic Form Audit",
             "day": "DAY 8",
-            "date": "AUDITED PICK"
+            "date": "04 Apr"
         },
         {
             "match": "Arsenal vs AFC Bournemouth",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
-            "analysis": "Strategic Form Verification",
+            "intensity": "72.5%",
+            "score_raw": 72.5,
+            "status": "PENDING",
+            "analysis": "Strategic Form Audit",
             "day": "DAY 9",
-            "date": "AUDITED PICK"
+            "date": "04 Apr"
         },
         {
             "match": "Crystal Palace vs Newcastle United",
-            "intensity": "72.0%",
-            "score_raw": 72.0,
-            "analysis": "Strategic Form Verification",
+            "intensity": "72.5%",
+            "score_raw": 72.5,
+            "status": "PENDING",
+            "analysis": "Strategic Form Audit",
             "day": "DAY 10",
-            "date": "AUDITED PICK"
+            "date": "04 Apr"
         }
     ]
 }
