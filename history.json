@@ -1,21 +1,21 @@
 {
     "morning_5_odds": [
         {
-            "match": "Eintracht Braunschweig vs FC Nuremberg",
+            "match": "Argentinos Juniors vs Banfield",
             "intensity": "72.5%",
             "score_raw": 72.5,
             "status": "PENDING",
             "analysis": "AI Scoped: Top Intensity Found"
         },
         {
-            "match": "Greuther Furth vs Paderborn",
+            "match": "Instituto Cordoba vs Defensa y Justicia",
             "intensity": "72.5%",
             "score_raw": 72.5,
             "status": "PENDING",
             "analysis": "AI Scoped: Top Intensity Found"
         },
         {
-            "match": "Hannover 96 vs Elversberg",
+            "match": "Estudiantes de Rio Cuarto vs San Martin de Tucuman",
             "intensity": "72.5%",
             "score_raw": 72.5,
             "status": "PENDING",
@@ -24,21 +24,21 @@
     ],
     "evening_5_odds": [
         {
-            "match": "Newcastle United W vs Nottingham Forest W",
+            "match": "Napoli vs AC Milan",
             "intensity": "72.5%",
             "score_raw": 72.5,
             "status": "PENDING",
             "analysis": "AI Scoped: Top Intensity Found"
         },
         {
-            "match": "Chapecoense AF vs Vitoria",
+            "match": "Portsmouth vs Oxford United",
             "intensity": "72.5%",
             "score_raw": 72.5,
             "status": "PENDING",
             "analysis": "AI Scoped: Top Intensity Found"
         },
         {
-            "match": "Atletico MG vs Athletico Paranaense",
+            "match": "Millwall vs Norwich City",
             "intensity": "72.5%",
             "score_raw": 72.5,
             "status": "PENDING",
@@ -46,5 +46,5 @@
         }
     ],
     "win_rate": "92%",
-    "last_update": "06:57"
+    "last_update": "16:29"
 }
