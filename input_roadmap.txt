@@ -1,516 +1,202 @@
-day 1
 
-Rayo Vallecanoe vs Elche
+Manchester United vs Leeds United
 
-Paris Saint-Germain vs Toulouse
+Al Ahli SC (Sau) vs Al Ahli SC (Sau)
+ 
+Al-Duhail (Qat) vs Al-Duhail (Qat)
 
-Birmingham City vs Blackburn Rovers
+Al Hilal (Sau) vs Al Hilal (Sau) 
 
-Charlton Athletic vs Bristol City
+Al-Sadd (Qat) vs Al-Sadd (Qat)
 
-Leicester City vs Preston North End
+Brunswick CityBrunswick City vs Melbourne KnightsMelbourne Knights
 
-Blackpool vs Exeter City
+CSKA SofiaCSKA Sofia vs Levski SofiaLevski Sofia
 
-Bradford City vs Northampton Town
+BeroeBeroe vs Lok. PlovdivLok. Plovdiv
 
-Burton Albion vs Barnsley
+Levante vs Getafe
 
-Huddersfield Town vs Reading
+Fiorentina vs Lazio
 
-Lincoln City vs AFC Wimbledon
+Tondela vs Gil Vicente
 
-Luton Town vs Peterborough United
+Akron Tolyatti vs Dinamo Moscow
 
-Plymouth Argyle vs Bolton Wanderers
+Caykur Rizespor vs Gaziantep FK
 
-Rotherham United vs Stevenage
+Eyupspor vs Samsunspor
 
-Stockport County vs Wycombe Wanderers
+Real Valladolid vs Eibar
 
-Accrington Stanley vs Crewe Alexandra
+Rodez Aveyron vs Troyes
 
-Barnet vs Bromley
+Jong Ajax vs TOP Oss
 
-Bristol Rovers vs Fleetwood Town
+Jong AZ vs Jong PSV
 
-Chesterfield vs Cheltenham Town
-
-Colchester United vs Oldham Athletic
-
-Grimsby Town vs Harrogate Town
-
-MK Dons vs Barrow
-
-Newport County vs Crawley Town
-
-Salford City vs Notts County
-
-Shrewsbury Town vs Tranmere Rovers
-
-Walsall vs Gillingham
-
-Dunkerque vs Rodez
-
-FC Annecy vs Guingamp
-
-Grenoble vs Clermont Foot 63
-
-Red Star vs Laval
-
-SC Bastia vs Amiens
-
-ADO Den Haag vs Jong Ajax
-
-Almere City FC vs TOP Oss
-
-FC Dordrecht vs Roda JC Kerkrade
-
-FC Eindhoven vs De Graafschap
-
-Jong AZ Alkmaar vs Helmond Sport
-
-MVV Maastricht vs RKC Waalwijk
-
-VVV-Venlo vs Cambuur
-
-Vitesse vs FC Emmen
-
-Willem II vs Jong PSV
+Jong FC Utrecht vs Vitesse
 
 BREAK
-day 2
 
-Gençlerbirliği vs Goztepe
+Atlético Madrid vs Barcelona
 
-Kasımpaşa vs Kayserispor
+Liverpool vs Paris Saint-Germain
 
-Gaziantep FK vs Alanyaspor
+Portsmouth  vs Ipswich Town
 
-Trabzonspor vs Galatasaray
+Southampton vs Blackburn Rovers
 
-Nacional vs CF Estrela da Amadora
+Huddersfield Town vs Cardiff City
 
-Moreirense vs SC Braga
+Port Vale vs Barnsley
 
-Rio Ave vs Alverca
+Wigan Athletic  vs Rotherham United
 
-FC Porto vs Famalicao
+Barrow vs Oldham Athletic
 
-Al Ahli vs Damac
+Chesterfield vs Grimsby Town
 
-NEOM SC vs Al Feiha
+Aldershot Town vs Southend United
 
-Al Hilal vs Al Taawoun
+Woking vs Solihull Moors
 
-Hibernian vs Kilmarnock
+Airdrieonians vs Dunfermline Athletic
 
-Motherwell vs Falkirk
+Queen's Park vs Raith Rover
 
-Rangers vs Dundee United
+Al Qadsiah vs Al Shabab
 
-St. Mirren vs Aberdeen
+Canada  vs South Korea
 
-Arbroath vs St. Johnstone
+Germany vs Austria
 
-Ayr United vs Partick Thistle
+Brazil vs Zambia
 
-Dunfermline Athletic vs Greenock Morton
+United States vs Japan
 
-Ross County vs Airdrieonians
+Armenia vs Belarus
 
-Sassuolo vs Cagliari
+Serbia vs Italy
 
-Hellas Verona vs Fiorentina
+England vs Spain
 
-Lazio vs Parma
-
-Strasbourg vs Nice
-
-Brest vs Rennes
-
-Lille vs Lens
-
-Manchester City vs Liverpool
-
-Chelsea vs Port Vale
-
-Southampton vs Arsenal
-
-PSV Eindhoven vs FC Utrecht
-
-AZ Alkmaar vs Fortuna Sittard
-
-Telstar vs FC Groningen
-
-Ajax vs FC Twente
-
-Excelsior vs NEC Nijmegen
+Netherlands vs France
 
 BREAK
-day 3
 
-Eintracht Braunschweig vs FC Nuremberg
+Arsenal vs Sporting CP
 
-Greuther Furth vs Paderborn
+Bayern Munich vs Real Madrid
 
-Hannover 96 vs Elversberg
+AFC Wimbledon vs Stockport County
 
-Holstein Kiel vs Preussen Muenster
+Luton Town vs Northampton Town
 
-Schalke 04 vs Karlsruher SC
+Seattle Sounders FC vs Tigres UANL
 
-Durham W vs Bristol City W
+Al Nassr vs Al Ettifaq
 
-Crystal Palace W vs Ipswich Town W
+Fluminense vs Independiente Rivadavia
 
-Newcastle United W vs Nottingham Forest W
+Sarpsborg FK vs Bodo/Glimt
 
-Chapecoense AF vs Vitoria
+Tromso vs Lillestrom
 
-Atletico MG vs Athletico Paranaense
+Corinthians vs Independiente Santa Fe
 
-Flamengo vs Santos FC
+Racing Club vs Botafogo
 
-Bahia vs Palmeiras
+Millonarios vs Boston River
 
-Corinthians vs Internacional
+San Jose Earthquake vs Phoenix Rising FC
 
-Mirassol vs RB Bragantino
+Red Bull New York vs Pittsburgh Riverhounds
 
-Gremio vs Remo
-
-BREAK
-day 4
-
-Argentinos Juniors vs Banfield
-
-Instituto Cordoba vs Defensa y Justicia
-
-Estudiantes de Rio Cuarto vs San Martin de Tucuman
-
-Gimnasia Mendoza vs Gimnasia y Tiro
-
-Velez Sarsfield vs Deportivo Armenio
-
-Grasshopper vs Sion
-
-Servette vs Luzern
-
-St. Gallen vs FC Zurich
-
-Kahrbaa Alasmalia vs Petrojet
-
-ZED FC vs Al Mokawloon Al Arab
-
-Udinese vs Como 1907
-
-Lecce vs Atalanta
-
-Juventus vs Genoa
-
-Napoli vs AC Milan
-
-Portsmouth vs Oxford United
-
-Millwall vs Norwich City
-
-Blackburn Rovers vs West Bromwich Albion
-
-Bristol City vs Sheffield United
-
-Derby County vs Stoke City
-
-Ipswich Town vs Birmingham City
-
-Preston North End vs QPR
-
-Sheffield Wednesday vs Leicester City
-
-Watford vs Charlton Athletic
-
-Swansea City vs Middlesbrough
-
-Hull City vs Coventry City
+Kenya vs Australia
 
 BREAK
-day 5
 
-Real Madrid vs Bayern Munich
+Celta Vigo vs SC Freiburg
 
-Sporting CP vs Arsenal
+Aston Villa vs Bologna
 
-Nashville SC vs CF America
+Nottingham Forest vs FC Porto
 
-Los Angeles FC vs Cruz Azul
+Real Betis vs Braga
 
-Wrexham vs Southampton
+AZ Alkmaar vs Shakhtar Donetsk
 
-Port Vale vs Rotherham United
+Fiorentina vs Crystal Palace
 
-Gimnasia LP vs CASD Camioneros
+Strasbourg vs Mainz
 
-Sarmiento vs Tristan Suarez
+Peterborough United  vs Port Vale
 
-Queretaro FC vs FC Juarez
+Bromley vs Cambridge United
 
-Tapatio vs Tlaxcala FC
+Lanús vs Always Ready
 
-FC Nordsjaelland vs Broendby IF
+Palmeiras vs Sporting Cristal
 
-Aalesund vs Fredrikstad
+Flamengo vs Independiente Medellín
 
-KFUM Oslo vs Sandefjord
+Tigre  vs Macará
 
-Melbourne City FC vs Central Coast Mariners
+Red Bull Bragantino  vs Blooming
 
-BREAK
-day 6
-
-Barcelona vs Atletico Madrid
-
-Paris Saint-Germain vs Liverpool
-
-SC Braga vs Real Betis
-
-Tigres vs Seattle Sounders FC
-
-Toluca vs LA Galaxy
-
-Deportivo Riestra vs Palestino
-
-Montevideo City Torque vs Gremio
-
-Audax Italiano vs Olimpia
-
-Montana vs PFC CSKA Sofia
-
-Botev Plovdiv vs Lokomotiv Plovdiv
-
-TS Galaxy vs Polokwane City
+Cienciano del Cusco vs Academia Puerto Cabello
 
 BREAK
-day 7
 
-Bologna vs Aston Villa
+Blackburn Rovers vs Coventry City
 
-FC Porto vs Nottingham Forest
+Sassuolo vs Como
 
-Freiburg vs Celta Vigo
+Internazionale vs Cagliari
 
-Rayo Vallecano vs AEK Athens
+St. Pauli vs FC Cologne
 
-Crystal Palace vs Fiorentina
+Rio Ave vs AVS
 
-Mainz 05 vs Strasbourg
+Lens vs Toulouse
 
-Shakhtar Donetsk vs AZ Alkmaar
+Melbourne Victory vs Newcastle Jets
 
-El Geish vs National Bank
+Qingdao Hainiu vs Qingdao West Coast
 
-Kahrbaa Alasmalia vs Al-Ittihad Alexandria
+Chongqing Tonglianglong vs Shenzhen Xinpengcheng
 
-Al Mokawloon Al Arab vs Ismaily SC
+Shandong Taishan vs Shanghai Port Beijing Guoan
 
-Petrojet vs ZED FC
+United States vs Japan
 
-Club Atletico Platense vs Corinthians
+Rostov  vs Sochi
 
-Santa Fe vs Club Atletico Penarol
+Antalyaspor vs Konyaspor
 
-Rosario Central vs Independiente del Valle
+Fenerbahce vs Caykur Rizespor
 
-Universidad Central vs Libertad
+Grazer AK vs SV Josko Ried
 
-CSD Macara vs America de Cali
+AS Nancy Lorraine   vs Annecy
 
-Juventud de las Piedras vs Cienciano
+Le Mans vs Clermont Foot
 
-Botafogo FR vs Caracas
+Montpellier vs Grenoble
 
-Blooming vs River Plate
+Pau vs Guingamp
 
-Carabobo FC vs RB Bragantino
+Sampdoria vs Monza
 
-PFC Lokomotiv Sofia 1929 vs Beroe
+Almere City vs FC Dordrecht
 
-Ludogorets Razgrad vs Cherno More Varna
+Jong PSV vs Jong Ajax
 
-Levski Sofia vs Arda Kardzhali
+Willem II Jong AZ
 
-BREAK
-day 8
+Jong FC Utrecht vs FC Eindhoven
 
-West Ham United vs Wolves
+Brøndby IF vs Sønderjyske Fodbold
 
-Real Madrid vs Girona
-
-Augsburg vs Hoffenheim
-
-AS Roma vs Pisa
-
-Paris FC vs AS Monaco
-
-Marseille vs Metz
-
-Famalicao vs Moreirense
-
-Al Shabab vs Al Ittihad
-
-Queen's Park vs Ross County
-
-AD Ceuta FC vs Real Sociedad B
-
-Frosinone vs Palermo
-
-Fortuna Dusseldorf vs Holstein Kiel
-
-Karlsruher SC vs Arminia Bielefeld
-
-FC Den Bosch vs Cambuur
-
-FC Eindhoven vs Roda JC Kerkrade
-
-MVV Maastricht vs Helmond Sport
-
-RKC Waalwijk vs FC Emmen
-
-Belgrano vs Aldosivi
-
-Puebla vs Leon
-
-FC Juarez vs Tijuana
-
-Alebrijes Oaxaca vs Jaibos Tampico Madero
-
-Atletico La Paz vs CD Tepatitlan de Morelos
-
-AGF vs FC Nordsjaelland
-
-FC Salzburg vs LASK
-
-BREAK
-day 9
-
-Arsenal vs AFC Bournemouth
-
-Brentford vs Everton
-
-Burnley vs Brighton
-
-Liverpool vs Fulham
-
-Real Sociedad vs Deportivo Alaves
-
-Elche vs Valencia
-
-Barcelona vs Espanyol
-
-Sevilla vs Atletico Madrid
-
-Borussia Dortmund vs Bayer Leverkusen
-
-FC Heidenheim vs Union Berlin
-
-RB Leipzig vs Borussia M'gladbach
-
-Wolfsburg vs Eintracht Frankfurt
-
-St. Pauli vs Bayern Munich
-
-Cagliari vs Cremonese
-
-Torino vs Hellas Verona
-
-AC Milan vs Udinese
-
-Atalanta vs Juventus
-
-Auxerre vs Nantes
-
-Rennes vs Angers
-
-Bristol Rovers vs Crawley Town
-
-MK Dons vs Bromley
-
-Accrington Stanley vs Fleetwood Town
-
-Barnet vs Barrow
-
-Cambridge United vs Notts County
-
-Chesterfield vs Tranmere Rovers
-
-Grimsby Town vs Crewe Alexandra
-
-Newport County vs Harrogate Town
-
-Salford City vs Gillingham
-
-Shrewsbury Town vs Oldham Athletic
-
-Walsall vs Cheltenham Town
-
-BREAK
-day 10
-
-Crystal Palace vs Newcastle United
-
-Nottingham Forest vs Aston Villa
-
-Sunderland vs Tottenham Hotspur
-
-Chelsea vs Manchester City
-
-Osasuna vs Real Betis
-
-Mallorca vs Rayo Vallecano
-
-Celta Vigo vs Real Oviedo
-
-Athletic Club vs Villarreal
-
-FC Cologne vs Werder Bremen
-
-VfB Stuttgart vs Hamburger SV
-
-Mainz 05 vs Freiburg
-
-Genoa vs Sassuolo
-
-Parma vs Napoli
-
-Bologna vs Lecce
-
-Como 1907 vs Inter
-
-Nice vs Le Havre
-
-Toulouse vs Lille
-
-Lyon vs Lorient
-
-Club Atletico Platense vs Gimnasia Mendoza
-
-Newell's Old Boys vs San Lorenzo de Almagro
-
-Atletico Tucuman vs Tigre
-
-CA Huracan vs Rosario Central
-
-Racing Club vs River Plate
-
-Pumas vs Mazatlan FC
-
-Toluca vs Atletico de San Luis
-
-Mineros de Zacatecas vs Correcaminos de la UAT
-
-Luzern vs St. Gallen
-
-Sion vs Lausanne
-
-Young Boys vs Servette
-
-BREAK
+Shelbourne vs Derry City
