@@ -28,14 +28,18 @@
         .card:hover { transform: translateY(-5px); }
 
         /* Status Badges */
-        .status-badge { display: inline-block; padding: 5px 12px; border-radius: 20px; font-weight: bold; font-size: 0.85em; margin-top: 10px; }
+        .status-badge { display: inline-block; padding: 5px 12px; border-radius: 20px; font-weight: bold; font-size: 0.75em; margin-top: 5px; }
         .win { background: var(--win-bg); color: var(--win-text); border: 1px solid #c3e6cb; }
         .loss { background: var(--loss-bg); color: var(--loss-text); border: 1px solid #f5c6cb; }
         .pending { background: var(--pending-bg); color: var(--pending-text); border: 1px solid #d6d8db; }
 
-        .intensity { color: #555; font-size: 0.9em; font-weight: 600; }
-        .day-label { color: var(--accent); font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 5px; }
-        .match-text { font-size: 1.2em; font-weight: bold; color: #333; margin: 10px 0; }
+        .intensity { color: #555; font-size: 0.85em; font-weight: 600; }
+        .day-label { color: var(--accent); font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        .match-text { font-size: 1em; font-weight: bold; color: #333; margin: 8px 0 4px; }
+        
+        /* New Game Row Style */
+        .game-row { border-bottom: 1px dashed #ddd; padding-bottom: 10px; margin-bottom: 10px; }
+        .game-row:last-child { border-bottom: none; }
         
         footer { text-align: center; margin-top: 50px; padding: 20px; color: #777; border-top: 1px solid #ddd; }
     </style>
@@ -61,7 +65,7 @@
         </div>
     </div>
 
-    <h2 class="section-title">10-Day Survival Roadmap</h2>
+    <h2 class="section-title">5-Day Intensive Sprint Roadmap</h2>
     <div class="grid" id="roadmap-list">
         </div>
 
@@ -73,22 +77,23 @@
 </footer>
 
 <script>
-    // Configuration
     const DAILY_URL = 'history.json';
     const ROADMAP_URL = 'tracker.json';
 
     async function fetchData() {
         try {
-            // 1. Load Daily Picks
-            const dailyRes = await fetch(DAILY_URL);
+            // Load Daily Picks
+            const dailyRes = await fetch(DAILY_URL + '?v=' + Date.now());
             const dailyData = await dailyRes.json();
-            
             document.getElementById('last-update').innerText = `Last AI Audit: ${dailyData.last_update}`;
+            
+            // Note: If you stop using morning/evening lists in main.py, 
+            // these will show the "No games" message.
             renderDaily(dailyData.morning_5_odds, 'morning-list');
             renderDaily(dailyData.evening_5_odds, 'evening-list');
 
-            // 2. Load Roadmap
-            const roadmapRes = await fetch(ROADMAP_URL);
+            // Load 5-Day Roadmap
+            const roadmapRes = await fetch(ROADMAP_URL + '?v=' + Date.now());
             const roadmapData = await roadmapRes.json();
             renderRoadmap(roadmapData.master_ticket);
 
@@ -98,6 +103,7 @@
     }
 
     function getStatusClass(status) {
+        if (!status) return "pending";
         if (status.includes("✅")) return "win";
         if (status.includes("❌")) return "loss";
         return "pending";
@@ -106,33 +112,38 @@
     function renderDaily(games, elementId) {
         const container = document.getElementById(elementId);
         if (!games || games.length === 0) {
-            container.innerHTML = "<p>No games analyzed for this period.</p>";
+            container.innerHTML = "<p style='font-size:0.8em; color:#999;'>Sprint Roadmap currently active.</p>";
             return;
         }
         
         container.innerHTML = games.map(g => `
             <div style="border-bottom: 1px solid #eee; padding: 10px 0;">
-                <div class="match-text" style="font-size: 1em;">${g.match}</div>
-                <div class="intensity">Goal Potential: ${g.intensity}</div>
+                <div class="match-text" style="font-size: 0.95em;">${g.match}</div>
+                <div class="intensity">Intensity: ${g.intensity}</div>
                 <div class="status-badge ${getStatusClass(g.status)}">${g.status}</div>
             </div>
         `).join('');
     }
 
-    function renderRoadmap(games) {
+    function renderRoadmap(days) {
         const container = document.getElementById('roadmap-list');
-        container.innerHTML = games.map(g => `
+        if (!days) return;
+
+        container.innerHTML = days.map(d => `
             <div class="card">
-                <span class="day-label">${g.day}</span>
-                <div class="match-text">${g.match}</div>
-                <div class="intensity">AI Intensity Score: ${g.intensity}</div>
-                <div class="status-badge ${getStatusClass(g.status)}">${g.status}</div>
-                <p style="font-size: 0.8em; color: #888; margin-top: 10px;">${g.analysis}</p>
+                <span class="day-label">${d.day} <span style="font-size:0.7em; color:#999; float:right;">${d.date}</span></span>
+                ${d.games.map(g => `
+                    <div class="game-row">
+                        <div class="match-text">${g.match}</div>
+                        <div class="intensity">Score: ${g.intensity}</div>
+                        <div class="status-badge ${getStatusClass(g.status)}">${g.status}</div>
+                        <p style="font-size: 0.75em; color: #666; margin: 5px 0 0 0;">${g.analysis}</p>
+                    </div>
+                `).join('')}
             </div>
         `).join('');
     }
 
-    // Auto-refresh data every 5 minutes
     fetchData();
     setInterval(fetchData, 300000);
 </script>
