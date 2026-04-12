@@ -6,24 +6,24 @@
             "games": [
                 {
                     "match": "Manchester United vs Leeds United",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 },
                 {
                     "match": "Al Ahli SC (Sau) vs Al Ahli SC (Sau)",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 },
                 {
                     "match": "Al-Duhail (Qat) vs Al-Duhail (Qat)",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 }
             ]
         },
@@ -33,24 +33,24 @@
             "games": [
                 {
                     "match": "Atl\u00e9tico Madrid vs Barcelona",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 },
                 {
                     "match": "Liverpool vs Paris Saint-Germain",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 },
                 {
                     "match": "Portsmouth vs Ipswich Town",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 }
             ]
         },
@@ -60,24 +60,24 @@
             "games": [
                 {
                     "match": "Arsenal vs Sporting CP",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 },
                 {
                     "match": "Bayern Munich vs Real Madrid",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 },
                 {
                     "match": "AFC Wimbledon vs Stockport County",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 }
             ]
         },
@@ -87,24 +87,24 @@
             "games": [
                 {
                     "match": "Celta Vigo vs SC Freiburg",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 },
                 {
                     "match": "Aston Villa vs Bologna",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 },
                 {
                     "match": "Nottingham Forest vs FC Porto",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 }
             ]
         },
@@ -114,24 +114,24 @@
             "games": [
                 {
                     "match": "Blackburn Rovers vs Coventry City",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 },
                 {
                     "match": "Sassuolo vs Como",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 },
                 {
                     "match": "Internazionale vs Cagliari",
-                    "intensity": "72.5%",
-                    "score_raw": 72.5,
+                    "intensity": "70.0%",
+                    "score_raw": 70.0,
                     "status": "PENDING",
-                    "analysis": "Standard Analysis: Balanced Tactical Setup"
+                    "analysis": "Basic Scouting: Standard tactical setup"
                 }
             ]
         }
