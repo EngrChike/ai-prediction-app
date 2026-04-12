@@ -6,24 +6,24 @@
             "games": [
                 {
                     "match": "Manchester United vs Leeds United",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 },
                 {
                     "match": "Al Ahli SC (Sau) vs Al Ahli SC (Sau)",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 },
                 {
                     "match": "Al-Duhail (Qat) vs Al-Duhail (Qat)",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 }
             ]
         },
@@ -33,24 +33,24 @@
             "games": [
                 {
                     "match": "Atl\u00e9tico Madrid vs Barcelona",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 },
                 {
                     "match": "Liverpool vs Paris Saint-Germain",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 },
                 {
                     "match": "Portsmouth vs Ipswich Town",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 }
             ]
         },
@@ -60,24 +60,24 @@
             "games": [
                 {
                     "match": "Arsenal vs Sporting CP",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 },
                 {
                     "match": "Bayern Munich vs Real Madrid",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 },
                 {
                     "match": "AFC Wimbledon vs Stockport County",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 }
             ]
         },
@@ -87,24 +87,24 @@
             "games": [
                 {
                     "match": "Celta Vigo vs SC Freiburg",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 },
                 {
                     "match": "Aston Villa vs Bologna",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 },
                 {
                     "match": "Nottingham Forest vs FC Porto",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 }
             ]
         },
@@ -114,24 +114,24 @@
             "games": [
                 {
                     "match": "Blackburn Rovers vs Coventry City",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 },
                 {
                     "match": "Sassuolo vs Como",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 },
                 {
                     "match": "Internazionale vs Cagliari",
-                    "intensity": "70.0%",
-                    "score_raw": 70.0,
+                    "intensity": "68.0%",
+                    "score_raw": 68.0,
                     "status": "PENDING",
-                    "analysis": "Basic Scouting: Standard tactical setup"
+                    "analysis": "API Sync: Pending deep data"
                 }
             ]
         }
