@@ -1,50 +1,5 @@
 {
-    "morning_5_odds": [
-        {
-            "match": "Argentinos Juniors vs Banfield",
-            "intensity": "72.5%",
-            "score_raw": 72.5,
-            "status": "PENDING",
-            "analysis": "AI Scoped: Top Intensity Found"
-        },
-        {
-            "match": "Instituto Cordoba vs Defensa y Justicia",
-            "intensity": "72.5%",
-            "score_raw": 72.5,
-            "status": "PENDING",
-            "analysis": "AI Scoped: Top Intensity Found"
-        },
-        {
-            "match": "Estudiantes de Rio Cuarto vs San Martin de Tucuman",
-            "intensity": "72.5%",
-            "score_raw": 72.5,
-            "status": "PENDING",
-            "analysis": "AI Scoped: Top Intensity Found"
-        }
-    ],
-    "evening_5_odds": [
-        {
-            "match": "Napoli vs AC Milan",
-            "intensity": "72.5%",
-            "score_raw": 72.5,
-            "status": "PENDING",
-            "analysis": "AI Scoped: Top Intensity Found"
-        },
-        {
-            "match": "Portsmouth vs Oxford United",
-            "intensity": "72.5%",
-            "score_raw": 72.5,
-            "status": "PENDING",
-            "analysis": "AI Scoped: Top Intensity Found"
-        },
-        {
-            "match": "Millwall vs Norwich City",
-            "intensity": "72.5%",
-            "score_raw": 72.5,
-            "status": "PENDING",
-            "analysis": "AI Scoped: Top Intensity Found"
-        }
-    ],
     "win_rate": "92%",
-    "last_update": "06:26"
+    "last_update": "19:51",
+    "sprint_mode": "5-Day Intensive"
 }
