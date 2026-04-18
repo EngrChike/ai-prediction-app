@@ -2,7 +2,7 @@
     "master_ticket": [
         {
             "day": "DAY 1",
-            "date": "17 Apr",
+            "date": "18 Apr",
             "games": [
                 {
                     "match": "Manchester United vs Leeds United",
@@ -29,7 +29,7 @@
         },
         {
             "day": "DAY 2",
-            "date": "18 Apr",
+            "date": "19 Apr",
             "games": [
                 {
                     "match": "Atl\u00e9tico Madrid vs Barcelona",
@@ -56,7 +56,7 @@
         },
         {
             "day": "DAY 3",
-            "date": "19 Apr",
+            "date": "20 Apr",
             "games": [
                 {
                     "match": "Arsenal vs Sporting CP",
@@ -83,7 +83,7 @@
         },
         {
             "day": "DAY 4",
-            "date": "20 Apr",
+            "date": "21 Apr",
             "games": [
                 {
                     "match": "Celta Vigo vs SC Freiburg",
@@ -110,7 +110,7 @@
         },
         {
             "day": "DAY 5",
-            "date": "21 Apr",
+            "date": "22 Apr",
             "games": [
                 {
                     "match": "Blackburn Rovers vs Coventry City",
